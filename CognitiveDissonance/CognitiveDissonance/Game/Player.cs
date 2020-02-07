@@ -20,7 +20,7 @@ namespace CognitiveDissonance
             //AddFrame("p", 120);
             AddFrame("",22);
 
-            SetCenter(0.5, 0.4);
+            //SetCenter(0.5, 0.4);
         }
 
         public Rectangle hitbox()
@@ -30,8 +30,8 @@ namespace CognitiveDissonance
                 return new Rectangle(
                     (int)(X - Ox * ScaleW),
                     (int)(Y - Oy * ScaleH),
-                    (int)(20 * ScaleW),
-                    (int)(32 * ScaleH)
+                    (int)(64 * ScaleW),
+                    (int)(64 * ScaleH)
                     );
             }
             else
@@ -39,8 +39,8 @@ namespace CognitiveDissonance
                 return new Rectangle(
                     (int)(X - Ox * ScaleW),
                     (int)(Y - Oy * ScaleH),
-                    (int)(20 * ScaleW),
-                    (int)(32 * ScaleH)
+                    (int)(64 * ScaleW),
+                    (int)(64 * ScaleH)
                     );
             }
         }
@@ -78,7 +78,7 @@ namespace CognitiveDissonance
         }
 
         public double speedX = 0.5;
-        public double speedY = 5;
+        public double speedY = 6;
 
         public double frX = 0;
         public double frY = 0;
@@ -88,18 +88,18 @@ namespace CognitiveDissonance
         public double minFrY = -8;
 
         public double frXFade = 0.3;
-        public double frYFade = 1.5;
+        public double frYFade = 1;
 
         public bool releasedJump = true;
         public bool tg = true;
         public int holdingJumpFor = 0;
-        public int maxJumpFor = 15;
+        public int maxJumpFor = 13;
 
         public bool canClimb = false;
 
         public override void Update()
         {
-            SetCenter(0.5, 0.4);
+            //SetCenter(0.5, 0.4);
 
             if (Controls.LEFT)
             {

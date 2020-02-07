@@ -38,13 +38,13 @@ namespace CognitiveDissonance
                       Blocks.Add(a);
                   }
               }*/
-            BaseRenderParameters.ScaleH = 2;
-            BaseRenderParameters.ScaleW = 2;
+           // BaseRenderParameters.ScaleH = 2;
+           // BaseRenderParameters.ScaleW = 2;
             LoadJSON(2, "PartA");
             Build();
 
             Player p = new Player();
-            p.Blocks = Blocks;
+            p.Blocks = SolidObjects;
             p.AddUR(this);
             p.SetXY(SpawnX * tileW, SpawnY * tileH);
         }
@@ -89,9 +89,7 @@ namespace CognitiveDissonance
         {
             foreach (var b in Blocks)
             {
-                b.AddImg(Tilesets.Get[b.TileSet].tex,"");
-                b.AddFrame("", 1, Tilesets.Get[b.TileSet].GetRect(b.TileNumb));
-                b.UpdateAnimation();
+              
                 b.AddUR(this);
                 b.X = tileW * b.GridX;
                 b.Y = tileH * b.GridY;

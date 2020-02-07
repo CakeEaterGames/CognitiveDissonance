@@ -38,7 +38,15 @@ namespace CognitiveDissonance
             GridY = int.Parse(j.SelectToken("y").ToString());
 
             TileSet = j.SelectToken("TileSet").ToString();
-            TileNumb = int.Parse(j.SelectToken("TileNumb").ToString());
+            //
+            AddImg(Tilesets.Get[TileSet].tex, "");
+            List<JToken> fr = j.SelectToken("TileNumb").ToList();
+            for (int i=0;i<fr.Count;i+=2)
+            {
+                AddFrame("", int.Parse(fr[i+1].ToString()), Tilesets.Get[TileSet].GetRect(   int.Parse(fr[i].ToString())     ));
+            }
+           
+            UpdateAnimation();
 
             IsSolid = parse("IsSolid");
             Kills = parse("Kills");
