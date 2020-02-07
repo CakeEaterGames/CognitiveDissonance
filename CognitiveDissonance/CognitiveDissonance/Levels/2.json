@@ -1,0 +1,55 @@
+﻿{
+  "name": "First",
+  "PartA": {
+    "spawn": {
+      "x": 1,
+      "y": 3
+    },
+    "exit": {
+      "x": 4,
+      "y": 4
+    },
+    "objects": [
+      {
+        "IsSolid": true,
+        "TileSet": "main", //main
+        "TileNumb": 0, //0
+        "x": 0, //0
+        "y": 5 //0
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main", //main
+        "TileNumb": 0, //0
+        "x": 1, //0
+        "y": 5 //0
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main", //main
+        "TileNumb": 0, //0
+        "x": 2, //0
+        "y": 5 //0
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main", //main
+        "TileNumb": 0, //0
+        "x": 3, //0
+        "y": 5 //0
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main", //main
+        "TileNumb": 0, //0
+        "x": 4, //0
+        "y": 5 //0
+      }
+    ]
+  },
+
+  "Part B": {
+
+  }
+
+}
