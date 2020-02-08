@@ -1,0 +1,60 @@
+﻿{
+  "floorBtn": {
+    "preset": "floorBtn",
+    "Stepable": true,
+    "Toggles": [],
+    "TileSet": "main",
+    "TileNumb": [ 4, 1, 5, 1 ],
+    "Stop": true
+  },
+  "wallBtn": {
+    "preset": "wallBtn",
+    "Clickable": true,
+    "Opens": [],
+    "TileSet": "main",
+    "TileNumb": [ 12, 1, 13, 1 ],
+    "Stop": true
+  },
+  "doorTop": {
+    "preset": "doorTop",
+    "IsSolid": true,
+    "Openable": true,
+    "Links": [],
+    "TileSet": "main",
+    "TileNumb": [ 6, 1, 7, 1 ],
+    "Stop": true,
+    "id": null
+  },
+  "doorBot": {
+    "preset": "doorBot",
+    "IsSolid": true,
+    "TileSet": "main",
+    "TileNumb": [ 14, 1, 15, 1 ],
+    "Stop": true,
+    "id": null
+  },
+  "box": {
+    "preset": "box",
+    "IsSolid": true,
+    "Pickable": true,
+    "Falling": true,
+    "TileSet": "main",
+    "TileNumb": [ 22, 1 ]
+  },
+  "key": {
+    "preset": "key",
+    "Pickable": true,
+    "Falling": true,
+    "IsKey": true,
+    "TileSet": "main",
+    "TileNumb": [ 23, 1 ]
+  },
+  "hole": {
+    "preset": "hole",
+    "Kills": true,
+    "TileSet": "main",
+    "TileNumb": [ 46, 5, 54, 5, 55, 5, 62, 5, 63, 5 ]
+  }
+
+
+}

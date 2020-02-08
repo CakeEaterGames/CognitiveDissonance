@@ -75,6 +75,7 @@
     <Compile Include="Game\Level.cs" />
     <Compile Include="Game\Player.cs" />
     <Compile Include="Game\Scenes\Gameplay.cs" />
+    <Compile Include="Game\Scenes\LevelEditor.cs" />
     <Compile Include="Game\Tileset.cs" />
     <Compile Include="Game\Tilesets.cs" />
     <Compile Include="Program.cs" />
@@ -108,6 +109,9 @@
     <None Include="app.config" />
     <None Include="app.manifest" />
     <None Include="Content\Fonts\Arial.spritefont" />
+    <None Include="Levels\templates.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Levels\1 - Копировать %282%29.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

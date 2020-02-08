@@ -13,12 +13,14 @@ namespace CognitiveDissonance
     {
         public Level level;
 
+        public string preset = "";
+
         public int id = 0;
         public int GridX = 0;
         public int GridY = 0;
 
         public string TileSet = "main";
-        public int TileNumb = 0;
+        public List<int> TileNumb = new List<int>();
 
         public bool IsSolid = false;
         public bool Kills = false;
@@ -36,6 +38,205 @@ namespace CognitiveDissonance
         public List<double> Moves = new List<double>();
 
         bool stepped = false;
+        int[] a = new int[] { 1, 2, 3 };
+        public void setPreset(string set)
+        {
+
+            switch (set)
+            {
+                case "floorBtn":
+                    preset = "floorBtn";
+                    Stepable = true;
+                    Toggles.Add(0);
+                    TileSet = "main";
+                    TileNumb.AddRange(new int[] { 4, 1, 5, 1 });
+                    Stop();
+ 
+                    break;
+                case "wallBtn":
+                    preset = "wallBtn";
+                    Clickable = true;
+                    Opens.Add(0);
+                    TileSet = "main";
+                    TileNumb.AddRange(new int[] { 12, 1, 13, 1 });
+                    Stop();
+ 
+ 
+                    break;
+                case "doorTop":
+                    preset = "doorTop";
+                    IsSolid = true;
+                    Openable = true;
+                    Links.Add(0);
+                    TileSet = "main";
+                    TileNumb.AddRange(new int[] { 6, 1, 7, 1 });
+                    Stop();
+                    id = 1;
+                    
+                    break;
+                case "doorBot":
+                    preset = "doorBot";
+                    IsSolid = true;
+                
+                    TileSet = "main";
+                    TileNumb.AddRange(new int[] { 14, 1, 15, 1 });
+                    Stop();
+                    id = 1;
+ 
+                    break;
+                case "box":
+                    preset = "box";
+                    IsSolid = true;
+                    Falling = true;
+                    Pickable = true;
+                    TileSet = "main";
+                    TileNumb.AddRange(new int[] { 22, 1 });
+          
+                    break;
+                case "key":
+                    preset = "key";
+ 
+                    Falling = true;
+                    Pickable = true;
+                    IsKey = true;
+                    TileSet = "main";
+                    TileNumb.AddRange(new int[] { 23, 1 });
+ 
+                    break;
+                case "hole":
+                    preset = "hole";
+                    Kills = true;
+                    TileSet = "main";
+                    TileNumb.AddRange(new int[] { 46, 5, 54, 5, 55, 5, 62, 5, 63, 5 });
+ 
+                    break;
+            }
+        }
+
+        public string toJSON()
+        {
+            string res = "";
+            res += "{";
+            if (IsSolid)
+            {
+                res += "'IsSolid' : true,";
+            }
+            if (Kills)
+            {
+                res += "'Kills' : true,";
+            }
+            if (Pickable)
+            {
+                res += "'Pickable' : true,";
+            }
+            if (Openable)
+            {
+                res += "'Openable' : true,";
+            }
+            if (IsKey)
+            {
+                res += "'IsKey' : true,";
+            }
+            if (Falling)
+            {
+                res += "'Falling' : true,";
+            }
+            if (Stepable)
+            {
+                res += "'Stepable' : true,";
+            }
+            if (Clickable)
+            {
+                res += "'Clickable' : true,";
+            }
+
+            if (Opens.Count > 0)
+            {
+                res += "'Opens' : [ ";
+                foreach (var a in Opens)
+                {
+                    res += a + ",";
+                }
+                res = res.Remove(res.Length - 1);
+                res += "],";
+            }
+            if (Toggles.Count > 0)
+            {
+                res += "'Toggles' : [ ";
+                foreach (var a in Toggles)
+                {
+                    res += a + ",";
+                }
+                res = res.Remove(res.Length - 1);
+                res += "],";
+            }
+            if (Links.Count > 0)
+            {
+                res += "'Links' : [ ";
+                foreach (var a in Links)
+                {
+                    res += a + ",";
+                }
+                res = res.Remove(res.Length - 1);
+                res += "],";
+            }
+
+            if (Moves.Count > 0)
+            {
+                res += "'Moves' : [ ";
+                for (int i = 0; i < Moves.Count; i += 3)
+                {
+                    res += "[";
+                    res += Moves[i] + ",";
+                    res += Moves[i + 1] + ",";
+                    res += Moves[i + 2];
+                    res += "],";
+                }
+                /*  foreach (var a in Links)
+                  {
+                      res += a + ",";
+                  }*/
+                res = res.Remove(res.Length - 1);
+                res += "],";
+            }
+
+            if (!IsPlaying)
+            {
+                res += "'Stop' : true,";
+            }
+
+            if (id != 0)
+            {
+                res += "'id' : "+id+",";
+            }
+
+            res += "'TileSet' : 'main',";
+
+            res += "'TileNumb' : [";
+            foreach (int i in TileNumb)
+            {
+                res += i +",";
+            }
+            res = res.Remove(res.Length - 1);
+            res += "],";
+
+            res += "'x' : " + GridX + ",";
+            res += "'y' : " + GridY + "";
+            while (res.IndexOf("'") > -1) res = res.Replace("'", "\"");
+
+            res += "}";
+
+
+            /*
+               public List<int> Opens = new List<int>();
+        public List<int> Toggles = new List<int>();
+        public List<int> Links = new List<int>();
+
+        public List<double> Moves = new List<double>();
+             */
+
+            return res;
+        }
 
         public override void Update()
         {
@@ -61,9 +262,9 @@ namespace CognitiveDissonance
         int moveSet = 0;
         void updateMove()
         {
-            if (Moves.Count>0)
+            if (Moves.Count > 0)
             {
-                X += Moves[0 + moveSet*3];
+                X += Moves[0 + moveSet * 3];
                 Y += Moves[1 + moveSet * 3];
                 if (!level.player.carried)
                 {
@@ -97,7 +298,7 @@ namespace CognitiveDissonance
             GotoAndStop(0);
             IsSolid = true;
         }
-        
+
 
         void updateOpen()
         {
@@ -126,10 +327,10 @@ namespace CognitiveDissonance
         }
 
 
-    
+
         public double frY = 0;
         public double minFrY = -8;
- 
+
         public double frYFade = 1;
 
         void updateGrav()
@@ -236,20 +437,20 @@ namespace CognitiveDissonance
             }
 
 
-           /* foreach (int i in Toggles)
-            {
-                level.ids[i].IsSolid = !level.ids[i].IsSolid;
+            /* foreach (int i in Toggles)
+             {
+                 level.ids[i].IsSolid = !level.ids[i].IsSolid;
 
-                if (level.ids[i].IsSolid)
-                {
-                    level.ids[i].GotoAndStop(0);
-                }
-                else
-                {
-                    level.ids[i].GotoAndStop(level.ids[i].Frames.Count - 1);
-                }
+                 if (level.ids[i].IsSolid)
+                 {
+                     level.ids[i].GotoAndStop(0);
+                 }
+                 else
+                 {
+                     level.ids[i].GotoAndStop(level.ids[i].Frames.Count - 1);
+                 }
 
-            }*/
+             }*/
         }
 
 
@@ -265,11 +466,14 @@ namespace CognitiveDissonance
             //
             AddImg(Tilesets.Get[TileSet].tex, "");
             List<JToken> fr = j.SelectToken("TileNumb").ToList();
-            for (int i=0;i<fr.Count;i+=2)
+            for (int i = 0; i < fr.Count; i += 2)
             {
-                AddFrame("", int.Parse(fr[i+1].ToString()), Tilesets.Get[TileSet].GetRect(   int.Parse(fr[i].ToString())     ));
+                TileNumb.Add(int.Parse(fr[i].ToString()));
+                TileNumb.Add(int.Parse(fr[i + 1].ToString()));
+
+                AddFrame("", int.Parse(fr[i + 1].ToString()), Tilesets.Get[TileSet].GetRect(int.Parse(fr[i].ToString())));
             }
-           
+
             UpdateAnimation();
 
             IsSolid = parse("IsSolid");
@@ -301,10 +505,10 @@ namespace CognitiveDissonance
                 }
             }
 
-            var move = j.SelectToken("Move");
+            var move = j.SelectToken("Moves");
             if (move != null)
             {
-                List<JToken> objs = j.SelectToken("Move").ToList();
+                List<JToken> objs = j.SelectToken("Moves").ToList();
                 foreach (JToken b in objs)
                 {
                     foreach (JToken c in b.ToList())
@@ -335,7 +539,7 @@ namespace CognitiveDissonance
                     }
                 }
             }
- 
+
             // SetXY(int.Parse(j.SelectToken("x").ToString()), int.Parse(j.SelectToken("y").ToString()));
         }
 

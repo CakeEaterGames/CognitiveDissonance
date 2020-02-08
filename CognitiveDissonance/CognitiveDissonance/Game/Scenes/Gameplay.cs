@@ -39,10 +39,15 @@ namespace CognitiveDissonance
         {
             b.AddRender();
             timer = 120;
+
+
+            a.RemoveUpdate();
+            b.RemoveUpdate();
         }
         public void hideLevelB()
         {
             b.RemoveRender();
+
         }
 
         public override void Update()

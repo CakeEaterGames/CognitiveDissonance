@@ -55,6 +55,11 @@ namespace CognitiveDissonance
             player.level = this;
             player.AddUR(this);
             player.SetXY(SpawnX * tileW, SpawnY * tileH);
+
+            foreach (Block b in Blocks)
+            {
+                Console.WriteLine(b.toJSON()+",");
+            }
         }
 
         public void Loss()
