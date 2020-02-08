@@ -12,9 +12,9 @@ namespace CognitiveDissonance
            
             Tilesets.Get.Add("main",a);
 
-            sceneManager = new SceneManager();
-             sceneManager.SetScene(new Gameplay());
-            //sceneManager.SetScene(new LevelEditor());
+        sceneManager = new SceneManager();
+            sceneManager.SetScene(new Gameplay());
+             //    sceneManager.SetScene(new LevelEditor());
             sceneManager.AddUR(this);
         }
         public override void Update()

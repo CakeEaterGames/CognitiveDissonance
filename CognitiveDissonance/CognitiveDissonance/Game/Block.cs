@@ -38,13 +38,25 @@ namespace CognitiveDissonance
         public List<double> Moves = new List<double>();
 
         bool stepped = false;
-        int[] a = new int[] { 1, 2, 3 };
-        public void setPreset(string set)
+ 
+        public enum presets
         {
+            floorBtn,
+            wallBtn,
+            doorTop,
+            doorBot,
+            box,
+            key,
+            hole,
+            bg,
+            wall,
+        }
 
+        public void setPreset(presets set)
+        {
             switch (set)
             {
-                case "floorBtn":
+                case presets.floorBtn:
                     preset = "floorBtn";
                     Stepable = true;
                     Toggles.Add(0);
@@ -53,7 +65,7 @@ namespace CognitiveDissonance
                     Stop();
  
                     break;
-                case "wallBtn":
+                case presets.wallBtn:
                     preset = "wallBtn";
                     Clickable = true;
                     Opens.Add(0);
@@ -63,7 +75,7 @@ namespace CognitiveDissonance
  
  
                     break;
-                case "doorTop":
+                case presets.doorTop:
                     preset = "doorTop";
                     IsSolid = true;
                     Openable = true;
@@ -74,7 +86,7 @@ namespace CognitiveDissonance
                     id = 1;
                     
                     break;
-                case "doorBot":
+                case presets.doorBot:
                     preset = "doorBot";
                     IsSolid = true;
                 
@@ -84,7 +96,7 @@ namespace CognitiveDissonance
                     id = 1;
  
                     break;
-                case "box":
+                case presets.box:
                     preset = "box";
                     IsSolid = true;
                     Falling = true;
@@ -93,7 +105,7 @@ namespace CognitiveDissonance
                     TileNumb.AddRange(new int[] { 22, 1 });
           
                     break;
-                case "key":
+                case presets.key:
                     preset = "key";
  
                     Falling = true;
@@ -103,12 +115,22 @@ namespace CognitiveDissonance
                     TileNumb.AddRange(new int[] { 23, 1 });
  
                     break;
-                case "hole":
+                case presets.hole:
                     preset = "hole";
                     Kills = true;
                     TileSet = "main";
                     TileNumb.AddRange(new int[] { 46, 5, 54, 5, 55, 5, 62, 5, 63, 5 });
  
+                    break;
+                case presets.bg:
+                    preset = "bg";
+                    TileSet = "main";
+                  
+                    break;
+                case presets.wall:
+                    preset = "wall";
+                    TileSet = "main";
+                    IsSolid = true;
                     break;
             }
         }
@@ -453,6 +475,16 @@ namespace CognitiveDissonance
              }*/
         }
 
+        public void AddTexture()
+        {
+            AddImg(Tilesets.Get[TileSet].tex, "");
+            for (int i = 0; i < TileNumb.Count; i += 2)
+            {
+                AddFrame("", int.Parse(TileNumb[i + 1].ToString()), Tilesets.Get[TileSet].GetRect(int.Parse(TileNumb[i].ToString())));
+            }
+            UpdateAnimation();
+
+        }
 
         JToken J;
 
@@ -464,17 +496,18 @@ namespace CognitiveDissonance
 
             TileSet = j.SelectToken("TileSet").ToString();
             //
-            AddImg(Tilesets.Get[TileSet].tex, "");
+          
             List<JToken> fr = j.SelectToken("TileNumb").ToList();
             for (int i = 0; i < fr.Count; i += 2)
             {
                 TileNumb.Add(int.Parse(fr[i].ToString()));
                 TileNumb.Add(int.Parse(fr[i + 1].ToString()));
 
-                AddFrame("", int.Parse(fr[i + 1].ToString()), Tilesets.Get[TileSet].GetRect(int.Parse(fr[i].ToString())));
+                //AddFrame("", int.Parse(fr[i + 1].ToString()), Tilesets.Get[TileSet].GetRect(int.Parse(fr[i].ToString())));
             }
 
-            UpdateAnimation();
+            //UpdateAnimation();
+            AddTexture();
 
             IsSolid = parse("IsSolid");
             Kills = parse("Kills");

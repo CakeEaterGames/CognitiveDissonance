@@ -23,10 +23,12 @@ namespace CognitiveDissonance
              a = new Level();
              b = new Level();
 
-            b.BaseRenderParameters.X = 1280 / 2;
-            b.BaseRenderParameters.Y = 720 / 3;
-            b.BaseRenderParameters.Alpha = 0.5;
+            a.LoadJSON(1, "PartA");
+           b.LoadJSON(1, "PartB");
 
+            a.Init();
+            b.Init();
+ 
             a.AddUR(this);
             b.AddUpdate(this);
  

@@ -33,21 +33,11 @@ namespace CognitiveDissonance
 
         public Level()
         {
-            /*  for (int i= 0;i<2;i++)
-              {
-                  for (int j = 0; j < 2; j++)
-                  {
-                      Block a = new Block();
-                      a.GridX = i;
-                      a.GridY = j;
-                      a.TileSet = "main";
-                      a.TileNumb = 0;
-                      Blocks.Add(a);
-                  }
-              }*/
-           // BaseRenderParameters.ScaleH = 2;
-           // BaseRenderParameters.ScaleW = 2;
-            LoadJSON(2, "PartA");
+           
+        }
+        public override void Init()
+        {
+       
             Build();
 
 
@@ -55,11 +45,6 @@ namespace CognitiveDissonance
             player.level = this;
             player.AddUR(this);
             player.SetXY(SpawnX * tileW, SpawnY * tileH);
-
-            foreach (Block b in Blocks)
-            {
-                Console.WriteLine(b.toJSON()+",");
-            }
         }
 
         public void Loss()
@@ -80,8 +65,14 @@ namespace CognitiveDissonance
            
             LevelName = a.SelectToken(name).ToString();
             //Console.WriteLine(levelName);
+            BaseRenderParameters.ScaleH = double.Parse(a.SelectToken("scale").ToString());
+            BaseRenderParameters.ScaleW = BaseRenderParameters.ScaleH;
 
-            var c = a.SelectToken(part);
+            BaseRenderParameters.X = 32 * BaseRenderParameters.ScaleW * double.Parse(a.SelectToken("ofsetX").ToString());
+
+            
+
+           var c = a.SelectToken(part);
             SpawnX = int.Parse(c.SelectToken("spawn").SelectToken("x").ToString());
             SpawnY = int.Parse(c.SelectToken("spawn").SelectToken("y").ToString());
             ExitX = int.Parse(c.SelectToken("exit").SelectToken("x").ToString());
