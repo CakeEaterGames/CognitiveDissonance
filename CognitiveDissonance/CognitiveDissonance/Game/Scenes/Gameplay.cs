@@ -24,7 +24,7 @@ namespace CognitiveDissonance
              b = new Level();
 
             a.LoadJSON(1, "PartA");
-           b.LoadJSON(1, "PartB");
+            b.LoadJSON(1, "PartB");
 
             a.Init();
             b.Init();
@@ -40,7 +40,8 @@ namespace CognitiveDissonance
         public void showLevelB()
         {
             b.AddRender();
-            timer = 120;
+            b.BaseRenderParameters.Alpha = 0;
+            timer = 600;
 
 
             a.RemoveUpdate();
@@ -56,6 +57,7 @@ namespace CognitiveDissonance
         {
             if (timer>0)
             {
+                b.BaseRenderParameters.Alpha += 0.01;
                 timer--;
                 if (timer == 0)
                 {
