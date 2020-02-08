@@ -12,7 +12,14 @@ namespace CognitiveDissonance
 {
     public class Level : Scene
     {
+       public Player player = new Player();
+
         public List<Block> Blocks = new List<Block>();
+        public Dictionary<int, Block> ids = new Dictionary<int, Block>();
+        public List<Block> IsPickable = new List<Block>();
+        public List<Block> IsOpenable = new List<Block>();
+        public List<Block> SolidObjects = new List<Block>();
+
         public int tileW = 32;
         public int tileH = 32;
 
@@ -22,7 +29,7 @@ namespace CognitiveDissonance
         public int SpawnY = 0;
         public int ExitX = 0;
         public int ExitY = 0;
-        public List<Block> SolidObjects = new List<Block>();
+       
 
         public Level()
         {
@@ -43,10 +50,17 @@ namespace CognitiveDissonance
             LoadJSON(2, "PartA");
             Build();
 
-            Player p = new Player();
-            p.Blocks = SolidObjects;
-            p.AddUR(this);
-            p.SetXY(SpawnX * tileW, SpawnY * tileH);
+
+            player.Blocks = SolidObjects;
+            player.level = this;
+            player.AddUR(this);
+            player.SetXY(SpawnX * tileW, SpawnY * tileH);
+        }
+
+        public void Loss()
+        {
+
+            Gameplay.self.showLevelB();
         }
 
         public void LoadJSON(int levelNumber, string part)
@@ -71,15 +85,30 @@ namespace CognitiveDissonance
 
             foreach (JToken j in objs)
             {
-               // string t = j.SelectToken(type).ToString();
+                //string t = j.SelectToken(type).ToString();
                 Block b = new Block();
                 Blocks.Add(b);
+                b.level = this;
                 b.Configure(j);
 
                 if (b.IsSolid)
                 {
                     SolidObjects.Add(b);
                 }
+                if (b.id != 0)
+                {
+                    ids.Add(b.id, b);
+                }
+                if (b.Pickable)
+                {
+                    IsPickable.Add(b);
+                }
+                if (b.Openable)
+                {
+                    IsOpenable.Add(b);
+                }
+
+              
             }
 
             sr.Close();

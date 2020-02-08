@@ -12,6 +12,11 @@ namespace CognitiveDissonance
     
     public class Player : GameObject
     {
+        public Level level;
+        public Block Holding;
+
+        public bool carried = false;
+
         public Player()
         {
             AddImg(GlobalContent.LoadImg("player", true), "");
@@ -22,26 +27,36 @@ namespace CognitiveDissonance
 
             //SetCenter(0.5, 0.4);
         }
+        public bool IsCrawling = false;
+        public Rectangle NormalHitbox()
+        {
+
+            return new Rectangle(
+               (int)(X - Ox * ScaleW),
+               (int)(Y - Oy * ScaleH),
+               (int)(64 * ScaleW),
+               (int)(64 * ScaleH)
+               );
+        }
+        public Rectangle CrawlHitbox()
+        {
+            return new Rectangle(
+                    (int)(X - Ox * ScaleW),
+                    (int)(Y - Oy * ScaleH + 32),
+                    (int)(64 * ScaleW),
+                    (int)(32 * ScaleH)
+                    );
+        }
 
         public Rectangle hitbox()
         {
-            if (Frames.Count == 0)
+            if(IsCrawling)
             {
-                return new Rectangle(
-                    (int)(X - Ox * ScaleW),
-                    (int)(Y - Oy * ScaleH),
-                    (int)(64 * ScaleW),
-                    (int)(64 * ScaleH)
-                    );
+                return CrawlHitbox();
             }
             else
             {
-                return new Rectangle(
-                    (int)(X - Ox * ScaleW),
-                    (int)(Y - Oy * ScaleH),
-                    (int)(64 * ScaleW),
-                    (int)(64 * ScaleH)
-                    );
+                return NormalHitbox();
             }
         }
 
@@ -100,6 +115,89 @@ namespace CognitiveDissonance
         public override void Update()
         {
             //SetCenter(0.5, 0.4);
+            carried = false;
+            physics();
+            Pick();
+            checkDepth();
+        }
+        void checkDepth()
+        {
+            if (Y>720*3)
+            {
+                level.Loss();
+            }
+        }
+
+        public void Pick()
+        {
+            if (Holding == null)
+            {
+                if (Controls.INTERACT)
+                {
+                    foreach (var a in level.IsPickable)
+                    {
+                        if (a.IsSolid)
+                        {
+                            var r = a.GetRect();
+                            r.X -= 3;
+                            r.Y -= 3;
+                            r.Width += 6;
+                            r.Height += 6;
+                            if (hitbox().Intersects(r) && Holding != a)
+                            {
+                                Holding = a;
+                                a.RemoveRender();
+                                a.AddUR(this);
+                                break;
+                            }
+                        }
+                        else if (hitbox().Intersects(a.GetRect()) && Holding != a)
+                        {
+                            Holding = a;
+                            a.RemoveRender();
+                            a.AddUR(this);
+                            break;
+                        }
+                    }
+                }
+            }
+            else
+            {
+                if (Orientation == Microsoft.Xna.Framework.Graphics.SpriteEffects.FlipHorizontally)
+                {
+                    Holding.SetXY(this.X - 32, this.Y+16);
+                }
+                else
+                {
+                    Holding.SetXY(this.X + hitbox().Width, this.Y + 16);
+                   
+                }
+               
+                if (Controls.INTERACT)
+                {
+                    Holding.RemoveRender();
+                    Holding.AddUR(level);
+                    Holding = null;
+                }
+            }
+        }
+
+        void physics()
+        {
+            if (Controls.DOWN)
+            {
+                if (IsCrawling)
+                {
+                    if (!isColliding(NormalHitbox()))
+                    {
+                        IsCrawling = false;
+                    }
+                }
+                else
+                {
+                    IsCrawling = true;
+                }
+            }
 
             if (Controls.LEFT)
             {
@@ -148,23 +246,25 @@ namespace CognitiveDissonance
             }
             frY += frYFade;
 
-           /* if (Controls.CLIMB && canClimb)
-            {
-                frY = -4;
-            }
-            if (Controls.GRAB && canClimb)
-            {
-                frY = 0;
-            }*/
+            /* if (Controls.CLIMB && canClimb)
+             {
+                 frY = -4;
+             }
+             if (Controls.GRAB && canClimb)
+             {
+                 frY = 0;
+             }*/
 
             if (Controls.JUMP && holdingJumpFor < maxJumpFor && !releasedJump)
             {
+                Console.WriteLine("j");
                 frY = -speedY;
                 holdingJumpFor++;
                 tg = false;
             }
             if (!Controls.JUMP && !releasedJump)
             {
+                Console.WriteLine("r");
                 holdingJumpFor = maxJumpFor + 1;
                 releasedJump = true;
             }
@@ -218,12 +318,11 @@ namespace CognitiveDissonance
         }
 
 
-
         public bool isColliding(Rectangle r)
         {
             foreach (Block lo in Blocks)
             {
-                if (lo.IsSolid && r.Intersects(lo.GetRect()))
+                if (lo.IsSolid && r.Intersects(lo.GetRect()) && Holding != lo)
                 {
                     return true;
                 }

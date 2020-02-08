@@ -11,9 +11,67 @@
     },
     "objects": [
       {
+        "IsSolid": false,
+        "Stepable": true,
+        "Toggles": [ 1 ],
+
+        "TileSet": "main",
+        "TileNumb": [ 10, 1 ],
+        "x": 3,
+        "y": 14
+      },
+      {
         "IsSolid": true,
         "TileSet": "main", //main
-        "TileNumb": [0,60,3,60],
+        "TileNumb": [ 10, 5, 11, 5 ],
+        "Stop": true,
+        "x": 5, //0
+        "y": 14, //0
+        "id": 1
+      },
+      {
+        "IsSolid": true,
+        "Pickable": true,
+        "Falling": true,
+        "IsKey": true,
+        "TileSet": "main", //main
+        "TileNumb": [ 7, 1 ],
+        "x": 13, //0
+        "y": 14 //0
+      },
+      {
+        "IsSolid": true,
+        "Pickable": true,
+        "IsKey": true,
+        "Falling": true,
+        "TileSet": "main", //main
+        "TileNumb": [ 7, 1 ],
+        "x": 13, //0
+        "y": 13 //0
+      },
+      {
+        "IsSolid": true,
+        "Openable": true,
+        "TileSet": "main", //main
+        "TileNumb": [ 10, 5, 11, 5 ],
+        "Stop": true,
+        "x": 15, //0
+        "y": 13, //0
+        "Links": [ 2 ]
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main", //main
+        "TileNumb": [ 10, 5, 11, 5 ],
+        "Stop": true,
+        "x": 15, //0
+        "y": 14, //0
+        "id": 2
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main", //main
+        "TileNumb": [ 0, 60, 3, 60 ],
         "x": 0, //0
         "y": 15 //0
       },
@@ -100,6 +158,95 @@
         "TileNumb": [ 0, 60, 3, 60 ],
         "x": 12, //0
         "y": 15 //0
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main", //main
+        "TileNumb": [ 0, 60, 3, 60 ],
+        "x": 12, //0
+        "y": 15 //0
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main", //main
+        "TileNumb": [ 0, 60, 3, 60 ],
+        "x": 13, //0
+        "y": 15 //0
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main", //main
+        "TileNumb": [ 0, 60, 3, 60 ],
+        "x": 14, //0
+        "y": 15 //0
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main", //main
+        "TileNumb": [ 0, 60, 3, 60 ],
+        "x": 15, //0
+        "y": 15 //0
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main", //main
+        "TileNumb": [ 0, 60, 3, 60 ],
+        "x": 16, //0
+        "y": 15 //0
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main", //main
+        "TileNumb": [ 0, 60, 3, 60 ],
+        "x": 17, //0
+        "y": 15 //0
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main", //main
+        "TileNumb": [ 0, 60, 3, 60 ],
+        "x": 18, //0
+        "y": 15 //0
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main", //main
+        "TileNumb": [ 0, 60, 3, 60 ],
+        "x": 19, //0
+        "y": 15, //0
+        "Move": [
+          [ 1, 0, 60 ],
+          [ -1, 0, 60 ],
+          [ 0, -1, 60 ],
+          [ 0, 1, 60 ]
+        ]
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main", //main
+        "TileNumb": [ 0, 60, 3, 60 ],
+        "x": 20, //0
+        "y": 15, //0
+        "Move": [
+          [ 1, 0, 60 ],
+          [ -1, 0, 60 ],
+          [ 0, -1, 60 ],
+          [ 0, 1, 60 ]
+        ]
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main", //main
+        "TileNumb": [ 0, 60, 3, 60 ],
+        "x": 10, //0
+        "y": 12 //0
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main", //main
+        "TileNumb": [ 0, 60, 3, 60 ],
+        "x": 10, //0
+        "y": 13 //0
       }
     ]
   },
