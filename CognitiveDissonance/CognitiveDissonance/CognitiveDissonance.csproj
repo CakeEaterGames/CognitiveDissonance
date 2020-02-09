@@ -119,6 +119,9 @@
     <None Include="Levels\6.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Levels\7.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Levels\templates.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

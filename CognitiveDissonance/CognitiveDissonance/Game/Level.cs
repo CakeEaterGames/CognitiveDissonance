@@ -89,8 +89,6 @@ namespace CognitiveDissonance
 
             BaseRenderParameters.X = 32 * BaseRenderParameters.ScaleW * double.Parse(a.SelectToken("ofsetX").ToString());
 
-
-
             var c = a.SelectToken(part);
             SpawnX = double.Parse(c.SelectToken("spawn").SelectToken("x").ToString());
             SpawnY = double.Parse(c.SelectToken("spawn").SelectToken("y").ToString());
