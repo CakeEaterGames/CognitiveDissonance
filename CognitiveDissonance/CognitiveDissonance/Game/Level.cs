@@ -59,10 +59,7 @@ namespace CognitiveDissonance
 
         public override void Update()
         {
-            Console.WriteLine((int)(player.X / 32));
-            Console.WriteLine((int)(player.Y / 32));
-            Console.WriteLine(player.GetRect());
-            Console.WriteLine(ExitX * 32 +" "+ ExitY * 32);
+          
 
             if (player.hitbox().Intersects(new Rectangle((int)ExitX * 32, (int)ExitY*32,64,64)))
             {
