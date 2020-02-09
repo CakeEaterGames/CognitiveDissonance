@@ -30,6 +30,7 @@ namespace CognitiveDissonance
         public bool Falling = false;
         public bool Stepable = false;
         public bool Clickable = false;
+        public bool Anti = false;
 
         public List<int> Opens = new List<int>();
         public List<int> Toggles = new List<int>();
@@ -510,6 +511,7 @@ namespace CognitiveDissonance
             AddTexture();
 
             IsSolid = parse("IsSolid");
+            Anti = parse("Anti");
             Kills = parse("Kills");
             Pickable = parse("Pickable");
             Openable = parse("Openable");

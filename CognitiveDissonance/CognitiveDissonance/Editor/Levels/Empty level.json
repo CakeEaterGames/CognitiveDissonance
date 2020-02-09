@@ -1,0 +1,31 @@
+﻿{
+  "name": "test",
+  "scale": 1,
+  "ofsetX": 0,
+  "PartA": {
+    "spawn": {
+      "x": 0,
+      "y": 0
+    },
+    "exit": {
+      "x": 0,
+      "y": 0
+    },
+    "objects": [
+
+    ]
+  },
+  "PartB": {
+    "spawn": {
+      "x": 0,
+      "y": 0
+    },
+    "exit": {
+      "x": 0,
+      "y": 0
+    },
+    "objects": [
+
+    ]
+  }
+}
