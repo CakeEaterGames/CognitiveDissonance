@@ -91,6 +91,8 @@ namespace CognitiveDissonance
  
             b.BaseRenderParameters.Alpha =Math.Max(0, Math.Min(b.BaseRenderParameters.Alpha, 1));
 
+            a.BaseRenderParameters.Alpha = 1 - b.BaseRenderParameters.Alpha;
+
             if (Controls.RESET)
             {
                 restartLevel();

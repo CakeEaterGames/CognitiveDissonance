@@ -4,153 +4,83 @@
   "ofsetX": 0,
   "PartA": {
     "spawn": {
-      "x": 6,
+      "x": 9,
       "y": 5
     },
     "exit": {
-      "x": 6,
+      "x": 23,
       "y": 12
     },
     "objects": [
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 18,
-        "y": 8
+        "TileNumb": [ 9, 1 ],
+        "x": 8,
+        "y": 7
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 18,
-        "y": 9
+        "TileNumb": [ 9, 1 ],
+        "x": 9,
+        "y": 7
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 18,
-        "y": 10
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
+        "TileNumb": [ 9, 1 ],
         "x": 10,
-        "y": 10
+        "y": 7
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 10,
-        "y": 9
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 24,
-        "y": 13
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 24,
-        "y": 12
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 24,
-        "y": 11
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 24,
-        "y": 10
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 24,
-        "y": 9
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 24,
-        "y": 8
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 24,
+        "TileNumb": [ 19, 1 ],
+        "x": 7,
         "y": 7
       },
       {
         "IsSolid": true,
         "TileSet": "main",
         "TileNumb": [ 18, 1 ],
-        "x": 24,
+        "x": 7,
         "y": 6
       },
       {
         "IsSolid": true,
         "TileSet": "main",
         "TileNumb": [ 18, 1 ],
-        "x": 24,
+        "x": 7,
+        "y": 8
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 7,
         "y": 5
       },
       {
         "IsSolid": true,
         "TileSet": "main",
         "TileNumb": [ 18, 1 ],
-        "x": 24,
+        "x": 7,
         "y": 4
       },
       {
         "IsSolid": true,
         "TileSet": "main",
         "TileNumb": [ 18, 1 ],
-        "x": 24,
+        "x": 7,
         "y": 3
       },
       {
         "IsSolid": true,
         "TileSet": "main",
         "TileNumb": [ 18, 1 ],
-        "x": 24,
+        "x": 7,
         "y": 2
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 18,
-        "y": 3
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 18,
-        "y": 2
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 9, 1 ],
-        "x": 5,
-        "y": 1
       },
       {
         "IsSolid": true,
@@ -163,134 +93,50 @@
         "IsSolid": true,
         "TileSet": "main",
         "TileNumb": [ 9, 1 ],
+        "x": 5,
+        "y": 1
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
         "x": 7,
-        "y": 1
+        "y": 11
       },
       {
         "IsSolid": true,
         "TileSet": "main",
         "TileNumb": [ 9, 1 ],
-        "x": 8,
-        "y": 1
+        "x": 6,
+        "y": 11
       },
       {
         "IsSolid": true,
         "TileSet": "main",
         "TileNumb": [ 9, 1 ],
-        "x": 9,
-        "y": 1
+        "x": 5,
+        "y": 11
       },
       {
         "IsSolid": true,
         "TileSet": "main",
         "TileNumb": [ 9, 1 ],
-        "x": 10,
-        "y": 1
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 9, 1 ],
-        "x": 11,
-        "y": 1
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 9, 1 ],
-        "x": 12,
-        "y": 1
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 9, 1 ],
-        "x": 14,
-        "y": 1
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 9, 1 ],
-        "x": 13,
-        "y": 1
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 9, 1 ],
-        "x": 15,
-        "y": 1
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 9, 1 ],
-        "x": 16,
-        "y": 1
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 9, 1 ],
-        "x": 17,
-        "y": 1
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 9, 1 ],
-        "x": 19,
-        "y": 1
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 9, 1 ],
-        "x": 20,
-        "y": 1
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 9, 1 ],
-        "x": 21,
-        "y": 1
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 9, 1 ],
-        "x": 22,
-        "y": 1
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 9, 1 ],
-        "x": 23,
-        "y": 1
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
         "x": 4,
-        "y": 2
+        "y": 11
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 4,
-        "y": 3
+        "TileNumb": [ 9, 1 ],
+        "x": 3,
+        "y": 11
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 4,
-        "y": 4
+        "TileNumb": [ 9, 1 ],
+        "x": 2,
+        "y": 11
       },
       {
         "IsSolid": true,
@@ -302,612 +148,755 @@
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 4,
-        "y": 6
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 4,
-        "y": 8
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 4,
-        "y": 9
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 4,
-        "y": 10
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 4,
+        "TileNumb": [ 24, 1 ],
+        "x": 1,
         "y": 11
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 4,
-        "y": 12
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 4,
-        "y": 13
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 5,
-        "y": 7
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 6,
-        "y": 7
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 7,
-        "y": 7
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
+        "TileNumb": [ 9, 1 ],
         "x": 8,
-        "y": 7
+        "y": 11
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
+        "TileNumb": [ 9, 1 ],
         "x": 9,
-        "y": 7
+        "y": 11
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
+        "TileNumb": [ 9, 1 ],
         "x": 10,
-        "y": 7
+        "y": 11
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 13,
-        "y": 7
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 14,
-        "y": 7
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 15,
-        "y": 7
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 16,
-        "y": 7
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 17,
-        "y": 7
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 5,
-        "y": 14
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 6,
-        "y": 14
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 7,
-        "y": 14
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 8,
-        "y": 14
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 9,
-        "y": 14
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 10,
-        "y": 14
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
+        "TileNumb": [ 9, 1 ],
         "x": 11,
-        "y": 14
+        "y": 11
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
+        "TileNumb": [ 9, 1 ],
         "x": 12,
-        "y": 14
+        "y": 11
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
+        "TileNumb": [ 9, 1 ],
         "x": 13,
-        "y": 14
+        "y": 11
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
+        "TileNumb": [ 9, 1 ],
         "x": 14,
-        "y": 14
+        "y": 11
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
+        "TileNumb": [ 9, 1 ],
         "x": 15,
-        "y": 14
+        "y": 11
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
+        "TileNumb": [ 9, 1 ],
         "x": 16,
-        "y": 14
+        "y": 11
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
+        "TileNumb": [ 9, 1 ],
         "x": 17,
-        "y": 14
+        "y": 11
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
+        "TileNumb": [ 9, 1 ],
         "x": 18,
-        "y": 14
+        "y": 11
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 19,
-        "y": 14
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 20,
-        "y": 14
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 21,
-        "y": 14
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 22,
-        "y": 14
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 23,
-        "y": 14
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 19, 1 ],
-        "x": 11,
-        "y": 7
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 19, 1 ],
-        "x": 12,
-        "y": 7
+        "TileNumb": [ 39, 1 ],
+        "x": 18,
+        "y": 8
       },
       {
         "IsSolid": true,
         "TileSet": "main",
         "TileNumb": [ 10, 1 ],
+        "x": 19,
+        "y": 11
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 10, 1 ],
+        "x": 20,
+        "y": 12
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 10, 1 ],
+        "x": 21,
+        "y": 13
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 22,
+        "y": 14
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 23,
+        "y": 14
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
         "x": 24,
+        "y": 14
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 25,
+        "y": 14
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 26, 1 ],
+        "x": 26,
+        "y": 14
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 26,
+        "y": 13
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 26,
+        "y": 12
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 26,
+        "y": 11
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 26,
+        "y": 10
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 26,
+        "y": 9
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 26,
+        "y": 7
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 26,
+        "y": 8
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 26,
+        "y": 6
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 18,
+        "y": 7
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 18,
+        "y": 6
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 19,
+        "y": 5
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 20,
+        "y": 5
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 21,
+        "y": 5
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 22,
+        "y": 5
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 23,
+        "y": 5
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 24,
+        "y": 5
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 25,
+        "y": 5
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 8,
         "y": 1
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 9,
+        "y": 1
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 10,
+        "y": 1
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 11,
+        "y": 1
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 12,
+        "y": 1
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 13,
+        "y": 1
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 14,
+        "y": 1
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 15,
+        "y": 1
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 16,
+        "y": 1
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 17,
+        "y": 1
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 18,
+        "y": 2
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 18,
+        "y": 3
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 18,
+        "y": 4
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 1,
+        "y": 10
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 1,
+        "y": 9
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 1,
+        "y": 8
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 1,
+        "y": 7
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 1,
+        "y": 6
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 1,
+        "y": 5
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 1,
+        "y": 4
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 1,
+        "y": 3
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 1,
+        "y": 2
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 2,
+        "y": 1
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 3,
+        "y": 1
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 4,
+        "y": 3
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 4,
+        "y": 4
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 4,
+        "y": 2
       },
       {
         "IsSolid": true,
         "TileSet": "main",
         "TileNumb": [ 19, 1 ],
         "x": 18,
+        "y": 5
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 19, 1 ],
+        "x": 7,
+        "y": 1
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 19, 1 ],
+        "x": 4,
         "y": 1
       },
       {
         "IsSolid": true,
         "TileSet": "main",
         "TileNumb": [ 8, 1 ],
-        "x": 4,
+        "x": 1,
         "y": 1
       },
       {
         "IsSolid": true,
         "TileSet": "main",
+        "TileNumb": [ 24, 1 ],
+        "x": 19,
+        "y": 12
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 24, 1 ],
+        "x": 20,
+        "y": 13
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 24, 1 ],
+        "x": 21,
+        "y": 14
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 10, 1 ],
+        "x": 18,
+        "y": 1
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 10, 1 ],
+        "x": 26,
+        "y": 5
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
         "TileNumb": [ 39, 1 ],
+        "x": 7,
+        "y": 9
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 6,
+        "y": 10
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 5,
+        "y": 10
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
         "x": 4,
-        "y": 14
+        "y": 10
       },
       {
-        "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 39, 1 ],
+        "TileNumb": [ 40, 1 ],
+        "x": 3,
+        "y": 10
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 2,
+        "y": 10
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 7,
+        "y": 10
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 9,
+        "y": 10
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 8,
+        "y": 10
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 10,
+        "y": 10
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 11,
+        "y": 10
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 12,
+        "y": 10
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 13,
+        "y": 10
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 14,
+        "y": 10
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 15,
+        "y": 10
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 16,
+        "y": 10
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 17,
+        "y": 10
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 18,
+        "y": 10
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 19,
+        "y": 10
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 20,
+        "y": 11
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 21,
+        "y": 12
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 22,
+        "y": 13
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 23,
+        "y": 13
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
         "x": 24,
-        "y": 14
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 39, 1 ],
-        "x": 18,
-        "y": 11
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 39, 1 ],
-        "x": 10,
-        "y": 11
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 5,
-        "y": 6
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 6,
-        "y": 6
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 7,
-        "y": 6
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 8,
-        "y": 6
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 9,
-        "y": 6
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 10,
-        "y": 6
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 11,
-        "y": 6
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 12,
-        "y": 6
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 13,
-        "y": 6
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 14,
-        "y": 6
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 15,
-        "y": 6
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 16,
-        "y": 6
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 17,
-        "y": 6
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 18,
-        "y": 6
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 18,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 17,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 16,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 15,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 14,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 13,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 11,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 12,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 9,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 10,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 8,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 7,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 6,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 5,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 5,
         "y": 13
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
-        "x": 6,
-        "y": 13
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 7,
+        "x": 25,
         "y": 13
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
         "x": 8,
-        "y": 13
+        "y": 9
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
         "x": 9,
-        "y": 13
+        "y": 9
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
         "x": 10,
-        "y": 13
+        "y": 9
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
         "x": 11,
-        "y": 13
+        "y": 9
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
         "x": 12,
-        "y": 13
+        "y": 9
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
         "x": 13,
-        "y": 13
+        "y": 9
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
         "x": 14,
-        "y": 13
+        "y": 9
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
         "x": 15,
-        "y": 13
+        "y": 9
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
         "x": 16,
-        "y": 13
+        "y": 9
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
         "x": 17,
-        "y": 13
+        "y": 9
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
         "x": 18,
-        "y": 13
+        "y": 9
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
         "x": 19,
-        "y": 13
+        "y": 9
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
         "x": 20,
-        "y": 13
+        "y": 10
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
         "x": 21,
-        "y": 13
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 23,
-        "y": 13
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 22,
-        "y": 13
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 23,
-        "y": 12
+        "y": 11
       },
       {
         "TileSet": "main",
@@ -918,585 +907,514 @@
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
-        "x": 21,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 20,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 19,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 18,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 17,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 16,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 15,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 14,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 13,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 12,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 11,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 10,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 9,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 8,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 7,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 6,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 5,
-        "y": 12
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 39, 1 ],
-        "x": 18,
-        "y": 4
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 5,
-        "y": 4
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 6,
-        "y": 4
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 7,
-        "y": 4
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 8,
-        "y": 4
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 9,
-        "y": 4
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 10,
-        "y": 4
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 11,
-        "y": 4
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 12,
-        "y": 4
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 13,
-        "y": 4
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 14,
-        "y": 4
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 15,
-        "y": 4
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 17,
-        "y": 4
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 16,
-        "y": 4
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
         "x": 23,
-        "y": 11
+        "y": 12
       },
       {
         "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 22,
-        "y": 11
+        "TileNumb": [ 40, 1 ],
+        "x": 24,
+        "y": 12
       },
       {
         "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 21,
-        "y": 11
+        "TileNumb": [ 40, 1 ],
+        "x": 25,
+        "y": 12
       },
       {
         "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 20,
-        "y": 11
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 19,
-        "y": 11
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 17,
-        "y": 11
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 16,
-        "y": 11
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 15,
-        "y": 11
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 14,
-        "y": 11
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 13,
-        "y": 11
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 12,
-        "y": 11
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 11,
-        "y": 11
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 9,
-        "y": 11
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
+        "TileNumb": [ 40, 1 ],
         "x": 8,
-        "y": 11
+        "y": 6
       },
       {
         "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 7,
-        "y": 11
+        "TileNumb": [ 40, 1 ],
+        "x": 9,
+        "y": 6
       },
       {
         "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 6,
-        "y": 11
+        "TileNumb": [ 40, 1 ],
+        "x": 10,
+        "y": 6
       },
       {
         "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 5,
-        "y": 11
+        "TileNumb": [ 40, 1 ],
+        "x": 11,
+        "y": 6
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 11,
+        "y": 5
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 10,
+        "y": 5
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 9,
+        "y": 5
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 8,
+        "y": 5
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 8,
+        "y": 4
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 9,
+        "y": 4
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 10,
+        "y": 4
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 11,
+        "y": 4
       },
       {
         "TileSet": "main",
         "TileNumb": [ 35, 1 ],
-        "x": 6,
+        "x": 9,
         "y": 6
       },
       {
         "TileSet": "main",
         "TileNumb": [ 27, 1 ],
-        "x": 6,
+        "x": 9,
         "y": 5
       },
       {
         "TileSet": "main",
         "TileNumb": [ 28, 1 ],
-        "x": 7,
+        "x": 10,
         "y": 5
       },
       {
         "TileSet": "main",
         "TileNumb": [ 36, 1 ],
-        "x": 7,
+        "x": 10,
         "y": 6
       },
       {
         "TileSet": "main",
         "TileNumb": [ 37, 1 ],
-        "x": 6,
+        "x": 23,
         "y": 13
       },
       {
         "TileSet": "main",
         "TileNumb": [ 29, 1 ],
-        "x": 6,
+        "x": 23,
         "y": 12
       },
       {
         "TileSet": "main",
         "TileNumb": [ 30, 1 ],
-        "x": 7,
+        "x": 24,
         "y": 12
       },
       {
         "TileSet": "main",
         "TileNumb": [ 38, 1 ],
-        "x": 7,
+        "x": 24,
         "y": 13
       },
       {
         "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 13,
-        "y": 8
+        "TileNumb": [ 32, 1 ],
+        "x": 2,
+        "y": 9
       },
       {
         "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 14,
-        "y": 8
+        "TileNumb": [ 32, 1 ],
+        "x": 3,
+        "y": 9
       },
       {
         "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 15,
-        "y": 8
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 16,
-        "y": 8
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 17,
-        "y": 8
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 9,
-        "y": 8
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 8,
-        "y": 8
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 7,
-        "y": 8
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 6,
-        "y": 8
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 5,
-        "y": 8
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 5,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 6,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 7,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 8,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 9,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 10,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 11,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 12,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 13,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 14,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 15,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 16,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 17,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 18,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 19,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 20,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 21,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 22,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 23,
-        "y": 15
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 31, 1 ],
-        "x": 10,
-        "y": 8
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 31, 1 ],
-        "x": 18,
-        "y": 7
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
+        "TileNumb": [ 32, 1 ],
         "x": 4,
-        "y": 7
+        "y": 9
       },
       {
-        "Kills": true,
         "TileSet": "main",
-        "TileNumb": [ 46, 5, 54, 5, 55, 5, 62, 5, 63, 5 ],
-        "x": 17,
-        "y": 10
-      },
-      {
-        "Kills": true,
-        "TileSet": "main",
-        "TileNumb": [ 46, 5, 54, 5, 55, 5, 62, 5, 63, 5 ],
-        "x": 16,
-        "y": 10
-      },
-      {
-        "Kills": true,
-        "TileSet": "main",
-        "TileNumb": [ 46, 5, 54, 5, 55, 5, 62, 5, 63, 5 ],
+        "TileNumb": [ 32, 1 ],
         "x": 5,
         "y": 9
       },
       {
-        "Kills": true,
         "TileSet": "main",
-        "TileNumb": [ 46, 5, 54, 5, 55, 5, 62, 5, 63, 5 ],
-        "x": 5,
+        "TileNumb": [ 32, 1 ],
+        "x": 6,
+        "y": 9
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 8,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 9,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 10,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 11,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 12,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 13,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 14,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 15,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 16,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 17,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 19,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 20,
+        "y": 9
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 21,
         "y": 10
       },
       {
-        "Kills": true,
         "TileSet": "main",
-        "TileNumb": [ 46, 5, 54, 5, 55, 5, 62, 5, 63, 5 ],
-        "x": 5,
+        "TileNumb": [ 32, 1 ],
+        "x": 22,
         "y": 11
       },
       {
-        "Kills": true,
         "TileSet": "main",
-        "TileNumb": [ 46, 5, 54, 5, 55, 5, 62, 5, 63, 5 ],
+        "TileNumb": [ 32, 1 ],
+        "x": 23,
+        "y": 11
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 24,
+        "y": 11
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 25,
+        "y": 11
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 8,
+        "y": 3
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 9,
+        "y": 3
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 10,
+        "y": 3
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 11,
+        "y": 3
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 2,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 3,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 4,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 5,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
         "x": 6,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 8,
+        "y": 2
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 9,
+        "y": 2
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 10,
+        "y": 2
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 11,
+        "y": 2
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 12,
+        "y": 7
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 13,
+        "y": 7
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 14,
+        "y": 7
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 15,
+        "y": 7
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 16,
+        "y": 7
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 17,
+        "y": 7
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 19,
+        "y": 7
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 20,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 21,
         "y": 9
       },
       {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 22,
+        "y": 10
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 23,
+        "y": 10
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 24,
+        "y": 10
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 25,
+        "y": 10
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 21, 1 ],
+        "x": 11,
+        "y": 7
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 12,
+        "y": 6
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 12,
+        "y": 5
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 12,
+        "y": 4
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 12,
+        "y": 3
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 12,
+        "y": 2
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 47, 1 ],
+        "x": 8,
+        "y": 5
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 47, 1 ],
+        "x": 11,
+        "y": 5
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 47, 1 ],
+        "x": 22,
+        "y": 12
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 47, 1 ],
+        "x": 25,
+        "y": 12
+      },
+      {
+        "Stepable": true,
+        "Toggles": [ 10, 11 ],
+        "Stop": true,
+        "TileSet": "main",
+        "TileNumb": [ 4, 30, 5, 30 ],
+        "x": 12,
+        "y": 10
+      },
+      {
+        "IsSolid": true,
         "Pickable": true,
-        "IsKey": true,
         "Falling": true,
         "TileSet": "main",
-        "TileNumb": [ 23, 1 ],
-        "x": 23,
-        "y": 13
+        "TileNumb": [ 22, 1 ],
+        "x": 4,
+        "y": 10
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 39, 1 ],
+        "x": 4,
+        "y": 6
       },
       {
         "IsSolid": true,
@@ -1506,8 +1424,8 @@
         "id": 11,
         "TileSet": "main",
         "TileNumb": [ 6, 30, 7, 30 ],
-        "x": 10,
-        "y": 12
+        "x": 18,
+        "y": 9
       },
       {
         "IsSolid": true,
@@ -1515,724 +1433,531 @@
         "id": 10,
         "TileSet": "main",
         "TileNumb": [ 14, 30, 15, 30 ],
-        "x": 10,
-        "y": 13
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 34, 1 ],
-        "x": 19,
-        "y": 2
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 34, 1 ],
-        "x": 20,
-        "y": 2
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 34, 1 ],
-        "x": 21,
-        "y": 2
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 34, 1 ],
-        "x": 22,
-        "y": 2
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 34, 1 ],
-        "x": 23,
-        "y": 2
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 47, 1 ],
-        "x": 9,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 47, 1 ],
-        "x": 10,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 47, 1 ],
-        "x": 11,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 47, 1 ],
-        "x": 13,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 47, 1 ],
-        "x": 14,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 47, 1 ],
-        "x": 15,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 47, 1 ],
-        "x": 19,
-        "y": 9
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 47, 1 ],
-        "x": 23,
-        "y": 9
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 33, 1 ],
-        "x": 19,
-        "y": 3
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 33, 1 ],
-        "x": 20,
-        "y": 3
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 33, 1 ],
-        "x": 21,
-        "y": 3
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 33, 1 ],
-        "x": 22,
-        "y": 3
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 33, 1 ],
-        "x": 23,
-        "y": 3
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 33, 1 ],
-        "x": 9,
-        "y": 9
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 33, 1 ],
-        "x": 5,
-        "y": 2
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 56, 1 ],
-        "x": 23,
-        "y": 11
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 56, 1 ],
-        "x": 21,
-        "y": 9
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 4,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 24,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 19, 1 ],
-        "x": 17,
-        "y": 2
+        "x": 18,
+        "y": 10
       }
     ]
-
 
   },
   "PartB": {
     "spawn": {
-      "x": 6,
+      "x": 9,
       "y": 5
     },
     "exit": {
-      "x": 6,
-      "y": 12
+      "x": 23,
+      "y": 15
     },
     "objects": [
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 18,
-        "y": 8
+        "TileNumb": [ 9, 1 ],
+        "x": 8,
+        "y": 7
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 18,
-        "y": 9
+        "TileNumb": [ 9, 1 ],
+        "x": 9,
+        "y": 7
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 18,
-        "y": 10
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
+        "TileNumb": [ 9, 1 ],
         "x": 10,
-        "y": 10
+        "y": 7
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 10,
-        "y": 9
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 24,
-        "y": 13
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 24,
-        "y": 12
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 24,
-        "y": 11
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 24,
-        "y": 10
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 24,
-        "y": 9
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 24,
-        "y": 8
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 24,
+        "TileNumb": [ 19, 1 ],
+        "x": 7,
         "y": 7
       },
       {
         "IsSolid": true,
         "TileSet": "main",
         "TileNumb": [ 18, 1 ],
-        "x": 24,
+        "x": 7,
         "y": 6
       },
       {
         "IsSolid": true,
         "TileSet": "main",
         "TileNumb": [ 18, 1 ],
-        "x": 24,
-        "y": 5
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 24,
-        "y": 4
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 24,
-        "y": 3
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 24,
-        "y": 2
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 18,
-        "y": 3
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 18,
-        "y": 2
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 9, 1 ],
-        "x": 5,
-        "y": 1
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 9, 1 ],
-        "x": 6,
-        "y": 1
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 9, 1 ],
         "x": 7,
-        "y": 1
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 9, 1 ],
-        "x": 8,
-        "y": 1
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 9, 1 ],
-        "x": 9,
-        "y": 1
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 9, 1 ],
-        "x": 10,
-        "y": 1
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 9, 1 ],
-        "x": 11,
-        "y": 1
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 9, 1 ],
-        "x": 12,
-        "y": 1
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 9, 1 ],
-        "x": 14,
-        "y": 1
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 9, 1 ],
-        "x": 13,
-        "y": 1
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 9, 1 ],
-        "x": 15,
-        "y": 1
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 9, 1 ],
-        "x": 16,
-        "y": 1
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 9, 1 ],
-        "x": 17,
-        "y": 1
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 9, 1 ],
-        "x": 19,
-        "y": 1
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 9, 1 ],
-        "x": 20,
-        "y": 1
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 9, 1 ],
-        "x": 21,
-        "y": 1
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 9, 1 ],
-        "x": 22,
-        "y": 1
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 9, 1 ],
-        "x": 23,
-        "y": 1
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 4,
-        "y": 2
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 4,
-        "y": 3
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 4,
-        "y": 4
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 4,
-        "y": 5
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 4,
-        "y": 6
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 4,
         "y": 8
       },
       {
         "IsSolid": true,
         "TileSet": "main",
         "TileNumb": [ 18, 1 ],
-        "x": 4,
-        "y": 9
+        "x": 7,
+        "y": 5
       },
       {
         "IsSolid": true,
         "TileSet": "main",
         "TileNumb": [ 18, 1 ],
-        "x": 4,
-        "y": 10
+        "x": 7,
+        "y": 4
       },
       {
         "IsSolid": true,
         "TileSet": "main",
         "TileNumb": [ 18, 1 ],
+        "x": 7,
+        "y": 3
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 7,
+        "y": 2
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 6,
+        "y": 1
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 5,
+        "y": 1
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 7,
+        "y": 11
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 6,
+        "y": 11
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 5,
+        "y": 11
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
         "x": 4,
         "y": 11
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 4,
-        "y": 12
+        "TileNumb": [ 9, 1 ],
+        "x": 3,
+        "y": 11
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
-        "x": 4,
-        "y": 13
+        "TileNumb": [ 9, 1 ],
+        "x": 2,
+        "y": 11
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 5,
-        "y": 7
+        "TileNumb": [ 24, 1 ],
+        "x": 1,
+        "y": 11
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 6,
-        "y": 7
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 7,
-        "y": 7
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
+        "TileNumb": [ 9, 1 ],
         "x": 8,
-        "y": 7
+        "y": 11
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
+        "TileNumb": [ 9, 1 ],
         "x": 9,
-        "y": 7
+        "y": 11
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
+        "TileNumb": [ 9, 1 ],
         "x": 10,
-        "y": 7
+        "y": 11
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 13,
-        "y": 7
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 14,
-        "y": 7
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 15,
-        "y": 7
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 16,
-        "y": 7
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 17,
-        "y": 7
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 5,
-        "y": 14
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 6,
-        "y": 14
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 7,
-        "y": 14
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 8,
-        "y": 14
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 9,
-        "y": 14
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 10,
-        "y": 14
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
+        "TileNumb": [ 9, 1 ],
         "x": 11,
-        "y": 14
+        "y": 11
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
+        "TileNumb": [ 9, 1 ],
         "x": 12,
-        "y": 14
+        "y": 11
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
+        "TileNumb": [ 9, 1 ],
         "x": 13,
-        "y": 14
+        "y": 11
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
+        "TileNumb": [ 9, 1 ],
         "x": 14,
-        "y": 14
+        "y": 11
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
+        "TileNumb": [ 9, 1 ],
         "x": 15,
-        "y": 14
+        "y": 11
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 16,
-        "y": 14
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 17,
-        "y": 14
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
+        "TileNumb": [ 9, 1 ],
         "x": 18,
-        "y": 14
+        "y": 11
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 19,
-        "y": 14
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 20,
-        "y": 14
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 21,
-        "y": 14
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 22,
-        "y": 14
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 2, 1 ],
-        "x": 23,
-        "y": 14
+        "TileNumb": [ 39, 1 ],
+        "x": 18,
+        "y": 8
       },
       {
         "IsSolid": true,
         "TileSet": "main",
         "TileNumb": [ 10, 1 ],
+        "x": 19,
+        "y": 11
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 10, 1 ],
+        "x": 20,
+        "y": 12
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 10, 1 ],
+        "x": 21,
+        "y": 13
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 26,
+        "y": 13
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 26,
+        "y": 12
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 26,
+        "y": 11
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 26,
+        "y": 10
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 26,
+        "y": 9
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 26,
+        "y": 7
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 26,
+        "y": 8
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 26,
+        "y": 6
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 18,
+        "y": 7
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 18,
+        "y": 6
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 19,
+        "y": 5
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 20,
+        "y": 5
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 21,
+        "y": 5
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 22,
+        "y": 5
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 23,
+        "y": 5
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
         "x": 24,
+        "y": 5
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 25,
+        "y": 5
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 8,
+        "y": 1
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 9,
+        "y": 1
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 10,
+        "y": 1
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 11,
+        "y": 1
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 12,
+        "y": 1
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 13,
+        "y": 1
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 14,
+        "y": 1
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 15,
+        "y": 1
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 16,
+        "y": 1
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 17,
+        "y": 1
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 18,
+        "y": 2
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 18,
+        "y": 3
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 18,
+        "y": 4
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 1,
+        "y": 10
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 1,
+        "y": 9
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 1,
+        "y": 8
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 1,
+        "y": 7
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 1,
+        "y": 6
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 1,
+        "y": 5
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 1,
+        "y": 4
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 1,
+        "y": 3
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 1,
+        "y": 2
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 2,
+        "y": 1
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 9, 1 ],
+        "x": 3,
         "y": 1
       },
       {
@@ -2240,336 +1965,177 @@
         "TileSet": "main",
         "TileNumb": [ 19, 1 ],
         "x": 18,
+        "y": 5
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 19, 1 ],
+        "x": 7,
+        "y": 1
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 19, 1 ],
+        "x": 4,
         "y": 1
       },
       {
         "IsSolid": true,
         "TileSet": "main",
         "TileNumb": [ 8, 1 ],
-        "x": 4,
+        "x": 1,
         "y": 1
       },
       {
         "IsSolid": true,
         "TileSet": "main",
+        "TileNumb": [ 24, 1 ],
+        "x": 19,
+        "y": 12
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 24, 1 ],
+        "x": 20,
+        "y": 13
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 10, 1 ],
+        "x": 18,
+        "y": 1
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 10, 1 ],
+        "x": 26,
+        "y": 5
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
         "TileNumb": [ 39, 1 ],
+        "x": 7,
+        "y": 9
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 6,
+        "y": 10
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 5,
+        "y": 10
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
         "x": 4,
-        "y": 14
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 39, 1 ],
-        "x": 24,
-        "y": 14
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 39, 1 ],
-        "x": 18,
-        "y": 11
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 39, 1 ],
-        "x": 10,
-        "y": 11
+        "y": 10
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
-        "x": 5,
-        "y": 6
+        "x": 3,
+        "y": 10
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
-        "x": 6,
-        "y": 6
+        "x": 2,
+        "y": 10
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
         "x": 7,
-        "y": 6
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 8,
-        "y": 6
+        "y": 10
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
         "x": 9,
-        "y": 6
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 10,
-        "y": 6
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 11,
-        "y": 6
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 12,
-        "y": 6
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 13,
-        "y": 6
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 14,
-        "y": 6
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 15,
-        "y": 6
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 16,
-        "y": 6
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 17,
-        "y": 6
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 18,
-        "y": 6
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 18,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 17,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 16,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 15,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 14,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 13,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 11,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 12,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 9,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 10,
-        "y": 5
+        "y": 10
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
         "x": 8,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 7,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 6,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 5,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 5,
-        "y": 13
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 6,
-        "y": 13
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 7,
-        "y": 13
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 8,
-        "y": 13
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 9,
-        "y": 13
+        "y": 10
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
         "x": 10,
-        "y": 13
+        "y": 10
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
         "x": 11,
-        "y": 13
+        "y": 10
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
         "x": 12,
-        "y": 13
+        "y": 10
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
         "x": 13,
-        "y": 13
+        "y": 10
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
         "x": 14,
-        "y": 13
+        "y": 10
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
         "x": 15,
-        "y": 13
+        "y": 10
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
         "x": 16,
-        "y": 13
+        "y": 10
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
         "x": 17,
-        "y": 13
+        "y": 10
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
         "x": 18,
-        "y": 13
+        "y": 10
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
         "x": 19,
-        "y": 13
+        "y": 10
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
         "x": 20,
-        "y": 13
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 21,
-        "y": 13
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 23,
-        "y": 13
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 22,
-        "y": 13
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 23,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 22,
-        "y": 12
+        "y": 11
       },
       {
         "TileSet": "main",
@@ -2580,573 +2146,519 @@
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
-        "x": 20,
-        "y": 12
+        "x": 8,
+        "y": 9
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 9,
+        "y": 9
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 10,
+        "y": 9
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 11,
+        "y": 9
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 12,
+        "y": 9
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 13,
+        "y": 9
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 14,
+        "y": 9
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 15,
+        "y": 9
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 16,
+        "y": 9
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 17,
+        "y": 9
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 18,
+        "y": 9
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
         "x": 19,
-        "y": 12
+        "y": 9
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
-        "x": 18,
-        "y": 12
+        "x": 20,
+        "y": 10
       },
       {
         "TileSet": "main",
         "TileNumb": [ 40, 1 ],
-        "x": 17,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 16,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 15,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 14,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 13,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 12,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 11,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 10,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 9,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 8,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 7,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 6,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 40, 1 ],
-        "x": 5,
-        "y": 12
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 39, 1 ],
-        "x": 18,
-        "y": 4
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 5,
-        "y": 4
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 6,
-        "y": 4
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 7,
-        "y": 4
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 8,
-        "y": 4
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 9,
-        "y": 4
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 10,
-        "y": 4
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 11,
-        "y": 4
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 12,
-        "y": 4
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 13,
-        "y": 4
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 14,
-        "y": 4
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 15,
-        "y": 4
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 17,
-        "y": 4
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 16,
-        "y": 4
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 22,
-        "y": 11
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
         "x": 21,
         "y": 11
       },
       {
         "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 20,
-        "y": 11
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 19,
-        "y": 11
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 17,
-        "y": 11
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 16,
-        "y": 11
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 15,
-        "y": 11
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 14,
-        "y": 11
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 13,
-        "y": 11
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 12,
-        "y": 11
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 11,
-        "y": 11
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 9,
-        "y": 11
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
+        "TileNumb": [ 40, 1 ],
         "x": 8,
-        "y": 11
+        "y": 6
       },
       {
         "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 7,
-        "y": 11
+        "TileNumb": [ 40, 1 ],
+        "x": 9,
+        "y": 6
       },
       {
         "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 6,
-        "y": 11
+        "TileNumb": [ 40, 1 ],
+        "x": 10,
+        "y": 6
       },
       {
         "TileSet": "main",
-        "TileNumb": [ 32, 1 ],
-        "x": 5,
-        "y": 11
+        "TileNumb": [ 40, 1 ],
+        "x": 11,
+        "y": 6
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 11,
+        "y": 5
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 10,
+        "y": 5
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 9,
+        "y": 5
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 8,
+        "y": 5
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 8,
+        "y": 4
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 9,
+        "y": 4
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 10,
+        "y": 4
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 11,
+        "y": 4
       },
       {
         "TileSet": "main",
         "TileNumb": [ 35, 1 ],
-        "x": 6,
+        "x": 9,
         "y": 6
       },
       {
         "TileSet": "main",
         "TileNumb": [ 27, 1 ],
-        "x": 6,
+        "x": 9,
         "y": 5
       },
       {
         "TileSet": "main",
         "TileNumb": [ 28, 1 ],
-        "x": 7,
+        "x": 10,
         "y": 5
       },
       {
         "TileSet": "main",
         "TileNumb": [ 36, 1 ],
-        "x": 7,
+        "x": 10,
         "y": 6
       },
       {
         "TileSet": "main",
-        "TileNumb": [ 37, 1 ],
-        "x": 6,
-        "y": 13
+        "TileNumb": [ 32, 1 ],
+        "x": 2,
+        "y": 9
       },
       {
         "TileSet": "main",
-        "TileNumb": [ 29, 1 ],
-        "x": 6,
-        "y": 12
+        "TileNumb": [ 32, 1 ],
+        "x": 3,
+        "y": 9
       },
       {
         "TileSet": "main",
-        "TileNumb": [ 30, 1 ],
-        "x": 7,
-        "y": 12
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 38, 1 ],
-        "x": 7,
-        "y": 13
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 13,
-        "y": 8
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 14,
-        "y": 8
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 15,
-        "y": 8
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 16,
-        "y": 8
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 17,
-        "y": 8
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 9,
-        "y": 8
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 8,
-        "y": 8
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 7,
-        "y": 8
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 6,
-        "y": 8
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 5,
-        "y": 8
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 5,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 6,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 7,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 8,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 9,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 10,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 11,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 12,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 13,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 14,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 15,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 16,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 17,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 18,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 19,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 20,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 21,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 22,
-        "y": 15
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 23,
-        "y": 15
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 31, 1 ],
-        "x": 10,
-        "y": 8
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 31, 1 ],
-        "x": 18,
-        "y": 7
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 18, 1 ],
+        "TileNumb": [ 32, 1 ],
         "x": 4,
-        "y": 7
+        "y": 9
       },
       {
-        "Kills": true,
         "TileSet": "main",
-        "TileNumb": [ 46, 5, 54, 5, 55, 5, 62, 5, 63, 5 ],
-        "x": 17,
-        "y": 10
-      },
-      {
-        "Kills": true,
-        "TileSet": "main",
-        "TileNumb": [ 46, 5, 54, 5, 55, 5, 62, 5, 63, 5 ],
-        "x": 16,
-        "y": 10
-      },
-      {
-        "Kills": true,
-        "TileSet": "main",
-        "TileNumb": [ 46, 5, 54, 5, 55, 5, 62, 5, 63, 5 ],
+        "TileNumb": [ 32, 1 ],
         "x": 5,
         "y": 9
       },
       {
-        "Kills": true,
         "TileSet": "main",
-        "TileNumb": [ 46, 5, 54, 5, 55, 5, 62, 5, 63, 5 ],
-        "x": 5,
+        "TileNumb": [ 32, 1 ],
+        "x": 6,
+        "y": 9
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 8,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 9,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 10,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 11,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 12,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 13,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 14,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 15,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 16,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 17,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 19,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 20,
+        "y": 9
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 21,
         "y": 10
       },
       {
-        "Kills": true,
         "TileSet": "main",
-        "TileNumb": [ 46, 5, 54, 5, 55, 5, 62, 5, 63, 5 ],
-        "x": 5,
+        "TileNumb": [ 32, 1 ],
+        "x": 22,
         "y": 11
       },
       {
-        "Kills": true,
         "TileSet": "main",
-        "TileNumb": [ 46, 5, 54, 5, 55, 5, 62, 5, 63, 5 ],
+        "TileNumb": [ 32, 1 ],
+        "x": 23,
+        "y": 11
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 24,
+        "y": 11
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 25,
+        "y": 11
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 8,
+        "y": 3
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 9,
+        "y": 3
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 10,
+        "y": 3
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 32, 1 ],
+        "x": 11,
+        "y": 3
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 2,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 3,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 4,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 5,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
         "x": 6,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 8,
+        "y": 2
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 9,
+        "y": 2
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 10,
+        "y": 2
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 11,
+        "y": 2
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 12,
+        "y": 7
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 13,
+        "y": 7
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 14,
+        "y": 7
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 15,
+        "y": 7
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 16,
+        "y": 7
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 17,
+        "y": 7
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 19,
+        "y": 7
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 20,
+        "y": 8
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 21,
         "y": 9
       },
       {
-        "Pickable": true,
-        "IsKey": true,
-        "Falling": true,
         "TileSet": "main",
-        "TileNumb": [ 23, 1 ],
+        "TileNumb": [ 17, 1 ],
+        "x": 22,
+        "y": 10
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
         "x": 23,
-        "y": 13
+        "y": 10
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 24,
+        "y": 10
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 25,
+        "y": 10
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 21, 1 ],
+        "x": 11,
+        "y": 7
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 12,
+        "y": 6
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 12,
+        "y": 5
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 12,
+        "y": 4
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 12,
+        "y": 3
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 12,
+        "y": 2
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 47, 1 ],
+        "x": 8,
+        "y": 5
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 47, 1 ],
+        "x": 11,
+        "y": 5
       },
       {
         "IsSolid": true,
@@ -3156,8 +2668,8 @@
         "id": 11,
         "TileSet": "main",
         "TileNumb": [ 6, 30, 7, 30 ],
-        "x": 10,
-        "y": 12
+        "x": 18,
+        "y": 9
       },
       {
         "IsSolid": true,
@@ -3165,207 +2677,508 @@
         "id": 10,
         "TileSet": "main",
         "TileNumb": [ 14, 30, 15, 30 ],
-        "x": 10,
-        "y": 13
+        "x": 18,
+        "y": 10
       },
       {
         "TileSet": "main",
-        "TileNumb": [ 34, 1 ],
-        "x": 19,
-        "y": 2
+        "TileNumb": [ 48, 1 ],
+        "x": 17,
+        "y": 11
       },
       {
         "TileSet": "main",
-        "TileNumb": [ 34, 1 ],
-        "x": 20,
-        "y": 2
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 34, 1 ],
-        "x": 21,
-        "y": 2
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 34, 1 ],
-        "x": 22,
-        "y": 2
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 34, 1 ],
-        "x": 23,
-        "y": 2
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 47, 1 ],
-        "x": 9,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 47, 1 ],
-        "x": 10,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 47, 1 ],
-        "x": 11,
-        "y": 5
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 47, 1 ],
-        "x": 13,
+        "TileNumb": [ 48, 1 ],
+        "x": 17,
         "y": 12
       },
       {
         "TileSet": "main",
-        "TileNumb": [ 47, 1 ],
-        "x": 14,
-        "y": 12
+        "TileNumb": [ 48, 1 ],
+        "x": 16,
+        "y": 11
       },
       {
         "TileSet": "main",
-        "TileNumb": [ 47, 1 ],
+        "TileNumb": [ 48, 1 ],
+        "x": 16,
+        "y": 12
+      },
+      {
+        "Kills": true,
+        "TileSet": "main",
+        "TileNumb": [ 46, 5, 54, 5, 55, 5, 62, 5, 63, 5 ],
         "x": 15,
         "y": 12
       },
       {
+        "Kills": true,
         "TileSet": "main",
-        "TileNumb": [ 47, 1 ],
-        "x": 19,
+        "TileNumb": [ 46, 5, 54, 5, 55, 5, 62, 5, 63, 5 ],
+        "x": 15,
+        "y": 13
+      },
+      {
+        "Kills": true,
+        "TileSet": "main",
+        "TileNumb": [ 46, 5, 54, 5, 55, 5, 62, 5, 63, 5 ],
+        "x": 16,
+        "y": 13
+      },
+      {
+        "Kills": true,
+        "TileSet": "main",
+        "TileNumb": [ 46, 5, 54, 5, 55, 5, 62, 5, 63, 5 ],
+        "x": 17,
+        "y": 13
+      },
+      {
+        "Kills": true,
+        "TileSet": "main",
+        "TileNumb": [ 46, 5, 54, 5, 55, 5, 62, 5, 63, 5 ],
+        "x": 18,
+        "y": 13
+      },
+      {
+        "Kills": true,
+        "TileSet": "main",
+        "TileNumb": [ 46, 5, 54, 5, 55, 5, 62, 5, 63, 5 ],
+        "x": 18,
+        "y": 12
+      },
+      {
+        "IsSolid": true,
+        "Pickable": true,
+        "Falling": true,
+        "TileSet": "main",
+        "TileNumb": [ 22, 1 ],
+        "x": 4,
         "y": 9
       },
       {
+        "Stepable": true,
+        "Toggles": [ 10, 11 ],
+        "Stop": true,
         "TileSet": "main",
-        "TileNumb": [ 47, 1 ],
-        "x": 23,
-        "y": 9
+        "TileNumb": [ 4, 30, 5, 30 ],
+        "x": 4,
+        "y": 10
       },
       {
         "TileSet": "main",
-        "TileNumb": [ 33, 1 ],
-        "x": 19,
+        "TileNumb": [ 17, 1 ],
+        "x": 4,
+        "y": 7
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 4,
+        "y": 6
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 4,
+        "y": 5
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 4,
+        "y": 4
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 4,
         "y": 3
       },
       {
         "TileSet": "main",
-        "TileNumb": [ 33, 1 ],
-        "x": 20,
+        "TileNumb": [ 17, 1 ],
+        "x": 4,
+        "y": 2
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 3,
+        "y": 7
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 3,
+        "y": 5
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 3,
+        "y": 6
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 3,
+        "y": 4
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 3,
         "y": 3
       },
       {
         "TileSet": "main",
-        "TileNumb": [ 33, 1 ],
-        "x": 21,
-        "y": 3
+        "TileNumb": [ 17, 1 ],
+        "x": 3,
+        "y": 2
       },
       {
         "TileSet": "main",
-        "TileNumb": [ 33, 1 ],
-        "x": 22,
-        "y": 3
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 33, 1 ],
-        "x": 23,
-        "y": 3
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 33, 1 ],
-        "x": 9,
-        "y": 9
-      },
-      {
-        "TileSet": "main",
-        "TileNumb": [ 33, 1 ],
+        "TileNumb": [ 17, 1 ],
         "x": 5,
         "y": 2
       },
       {
         "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
-        "x": 4,
+        "TileNumb": [ 17, 1 ],
+        "x": 5,
+        "y": 3
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 5,
+        "y": 4
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 5,
+        "y": 5
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 5,
+        "y": 6
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 17, 1 ],
+        "x": 5,
+        "y": 7
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 21,
+        "y": 14
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 21,
+        "y": 15
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 21,
+        "y": 16
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 21,
+        "y": 17
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 26,
+        "y": 14
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 26,
+        "y": 15
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 26,
+        "y": 16
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 18, 1 ],
+        "x": 26,
+        "y": 17
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 22,
+        "y": 12
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 23,
+        "y": 12
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 24,
+        "y": 12
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 25,
+        "y": 12
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 25,
+        "y": 13
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 24,
+        "y": 13
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 23,
+        "y": 13
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 22,
+        "y": 13
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 22,
+        "y": 14
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 23,
+        "y": 14
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 24,
+        "y": 14
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 25,
+        "y": 14
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 25,
         "y": 15
       },
       {
         "TileSet": "main",
-        "TileNumb": [ 11, 1 ],
+        "TileNumb": [ 40, 1 ],
         "x": 24,
         "y": 15
       },
       {
         "TileSet": "main",
-        "TileNumb": [ 19, 1 ],
-        "x": 17,
-        "y": 2
-      },
-      {
-        "IsSolid": true,
-        "TileSet": "main",
-        "TileNumb": [ 19, 1 ],
+        "TileNumb": [ 40, 1 ],
         "x": 23,
-        "y": 11
+        "y": 15
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 22,
+        "y": 15
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 22,
+        "y": 16
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 23,
+        "y": 16
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 24,
+        "y": 16
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 25,
+        "y": 16
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 25,
+        "y": 17
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 24,
+        "y": 17
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 23,
+        "y": 17
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 40, 1 ],
+        "x": 22,
+        "y": 17
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 37, 1 ],
+        "x": 23,
+        "y": 17
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 29, 1 ],
+        "x": 23,
+        "y": 16
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 30, 1 ],
+        "x": 24,
+        "y": 16
+      },
+      {
+        "TileSet": "main",
+        "TileNumb": [ 38, 1 ],
+        "x": 24,
+        "y": 17
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 19, 1 ],
+        "TileNumb": [ 24, 1 ],
         "x": 21,
-        "y": 9
-      },
-      {
-        "IsSolid": true,
-        "Openable": true,
-        "Links": [ 21 ],
-        "Stop": true,
-        "id": 20,
-        "TileSet": "main",
-        "TileNumb": [ 6, 30, 7, 30 ],
-        "x": 18,
-        "y": 12
-      },
-      {
-        "IsSolid": true,
-        "Stop": true,
-        "id": 21,
-        "TileSet": "main",
-        "TileNumb": [ 14, 30, 15, 30 ],
-        "x": 18,
-        "y": 13
-      },
-      {
-        "Stepable": true,
-        "Opens": [ 31, 32 ],
-        "Stop": true,
-        "TileSet": "main",
-        "TileNumb": [ 4, 30, 5, 30 ],
-        "x": 20,
-        "y": 13
+        "y": 18
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 20, 30, 57, 30 ],
-        "x": 11,
-        "y": 7,
-        "Stop": true,
-        "id": 31
+        "TileNumb": [ 25, 1 ],
+        "x": 22,
+        "y": 18
       },
       {
         "IsSolid": true,
         "TileSet": "main",
-        "TileNumb": [ 21, 30, 57, 30 ],
-        "x": 12,
-        "y": 7,
-        "Stop": true,
-        "id": 32
+        "TileNumb": [ 25, 1 ],
+        "x": 23,
+        "y": 18
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 25, 1 ],
+        "x": 24,
+        "y": 18
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 25, 1 ],
+        "x": 25,
+        "y": 18
+      },
+      {
+        "IsSolid": true,
+        "TileSet": "main",
+        "TileNumb": [ 26, 1 ],
+        "x": 26,
+        "y": 18
+      },
+      {
+        "Kills": true,
+        "TileSet": "main",
+        "TileNumb": [ 46, 5, 54, 5, 55, 5, 62, 5, 63, 5 ],
+        "x": 22,
+        "y": 17
+      },
+      {
+        "Kills": true,
+        "TileSet": "main",
+        "TileNumb": [ 46, 5, 54, 5, 55, 5, 62, 5, 63, 5 ],
+        "x": 22,
+        "y": 16
+      },
+      {
+        "Kills": true,
+        "TileSet": "main",
+        "TileNumb": [ 46, 5, 54, 5, 55, 5, 62, 5, 63, 5 ],
+        "x": 22,
+        "y": 15
+      },
+      {
+        "Kills": true,
+        "TileSet": "main",
+        "TileNumb": [ 46, 5, 54, 5, 55, 5, 62, 5, 63, 5 ],
+        "x": 25,
+        "y": 17
+      },
+      {
+        "Kills": true,
+        "TileSet": "main",
+        "TileNumb": [ 46, 5, 54, 5, 55, 5, 62, 5, 63, 5 ],
+        "x": 25,
+        "y": 16
+      },
+      {
+        "Kills": true,
+        "TileSet": "main",
+        "TileNumb": [ 46, 5, 54, 5, 55, 5, 62, 5, 63, 5 ],
+        "x": 25,
+        "y": 15
       }
     ]
 
