@@ -1,15 +1,14 @@
 ﻿{
   "name": "First",
-  "scale": 1.5,
-  "ofsetX": 3,
+  "scale": 1.7,
+  "ofsetX": 2,
   "PartA": {
-
     "spawn": {
       "x": 4,
       "y": 4
     },
     "exit": {
-      "x": 4,
+      "x": 15,
       "y": 4
     },
     "objects": [
@@ -1505,13 +1504,12 @@
 
   },
   "PartB": {
-
     "spawn": {
       "x": 4,
       "y": 4
     },
     "exit": {
-      "x": 4,
+      "x": 15,
       "y": 4
     },
     "objects": [

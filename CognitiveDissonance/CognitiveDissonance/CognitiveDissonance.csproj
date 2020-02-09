@@ -72,6 +72,7 @@
     <Compile Include="Engine\MainScreen.cs" />
     <Compile Include="Engine\Sounds.cs" />
     <Compile Include="Game\Block.cs" />
+    <Compile Include="Game\DualLevel.cs" />
     <Compile Include="Game\Level.cs" />
     <Compile Include="Game\Player.cs" />
     <Compile Include="Game\Scenes\Gameplay.cs" />
@@ -110,19 +111,19 @@
     <None Include="app.manifest" />
     <None Include="Content\Fonts\Arial.spritefont" />
     <None Include="Levels\1.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Levels\3.json">
+    <None Include="Levels\5.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Levels\6.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Levels\templates.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Levels\1 - Копировать %282%29.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Levels\2.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="packages.config" />
   </ItemGroup>

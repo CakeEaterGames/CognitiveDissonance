@@ -28,7 +28,7 @@ namespace CognitiveDissonance
             setSelector.AddUR(this);
             AddUR();
 
-             importJSON(1, "PartA");
+             importJSON("output");
         }
 
         public int CurrentBlock = 0;
@@ -38,6 +38,11 @@ namespace CognitiveDissonance
         {
             double mx = KEY.MouseX/BaseRenderParameters.ScaleW;
             double my = KEY.MouseY / BaseRenderParameters.ScaleH;
+
+            if (KEY.IsTyped(Keys.LeftControl))
+            {
+                Console.WriteLine("presets: " + preset);
+            }
 
             if (KEY.IsTyped(Keys.D1)) preset = Block.presets.bg;
             if (KEY.IsTyped(Keys.D2)) preset = Block.presets.wall;
@@ -49,12 +54,15 @@ namespace CognitiveDissonance
             if (KEY.IsTyped(Keys.D8)) preset = Block.presets.box;
             if (KEY.IsTyped(Keys.D9)) preset = Block.presets.hole;
 
+
+
             if (KEY.IsDown(Keys.LeftShift))
             {
                 setSelector.AddRender();
                 if (KEY.LClick)
                 {
                     CurrentBlock = (int)(mx / 32) + ((int)(my / 32) * 8);
+                    Console.WriteLine("CurrentBlock: " + CurrentBlock);
                 }
             }
             else
@@ -131,11 +139,14 @@ namespace CognitiveDissonance
             {
                 BaseRenderParameters.ScaleH+=0.1;
                 BaseRenderParameters.ScaleW += 0.1;
+                Console.WriteLine("Scale: " + BaseRenderParameters.ScaleH);
             }
             if (KEY.IsTyped(Keys.OemMinus))
             {
                 BaseRenderParameters.ScaleH -= 0.1;
                 BaseRenderParameters.ScaleW -= 0.1;
+
+                Console.WriteLine("Scale: "+ BaseRenderParameters.ScaleH);
             }
 
             if (KEY.IsTyped(Keys.Enter))
@@ -144,15 +155,15 @@ namespace CognitiveDissonance
             }
         }
 
-        public void importJSON(int levelNumber, string part)
+        public void importJSON(string name)
         {
             string objects = "objects";
 
-            StreamReader sr = new StreamReader("Levels/" + levelNumber + ".json");
+            StreamReader sr = new StreamReader("Levels/" + name + ".json");
             string str = sr.ReadToEnd();
 
-            JObject a = JObject.Parse(str);
-            var c = a.SelectToken(part);
+            JObject a = JObject.Parse("{"+str+"}");
+            var c = a;
             List<JToken> objs = c.SelectToken(objects).ToList();
 
             foreach (JToken j in objs)
@@ -163,7 +174,7 @@ namespace CognitiveDissonance
                 b.Configure(j);
                 b.X = 32 * b.GridX;
                 b.Y = 32 * b.GridY;
-                b.AddRender();
+                b.AddRender(this);
             }
 
             sr.Close();

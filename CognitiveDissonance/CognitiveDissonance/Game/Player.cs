@@ -7,9 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CognitiveDissonance 
+namespace CognitiveDissonance
 {
-    
+
     public class Player : GameObject
     {
         public Level level;
@@ -17,40 +17,114 @@ namespace CognitiveDissonance
 
         public bool carried = false;
 
+        int sw = 64;
+
+        public List<int> FrameLoops = new List<int>();
+
         public Player()
         {
-            AddImg(GlobalContent.LoadImg("player", true), "");
- 
 
+            int x = 0, y = 0;
+            AddImg(GlobalContent.LoadImg("player", true), "");
+
+            //idle
+
+            FrameLoops.Add(Frames.Count);
+            AddFrame("", new Rectangle(x * sw, y * sw, sw, sw), 25);
+            x++;
+            AddFrame("", new Rectangle(x * sw, y * sw, sw, sw), 40);
+            x++;
+            AddFrame("", new Rectangle(x * sw, y * sw, sw, sw), 25);
+            x++;
+            AddFrame("", new Rectangle(x * sw, y * sw, sw, sw), 40);
+            x++;
+
+
+            //run
+            FrameLoops.Add(Frames.Count);
+            y = 1;
+            x = 0;
+            AddFrame("", new Rectangle(x * sw, y * sw, sw, sw), 10);
+            x++;
+            AddFrame("", new Rectangle(x * sw, y * sw, sw, sw), 10);
+            x++;
+            AddFrame("", new Rectangle(x * sw, y * sw, sw, sw), 10);
+            x++;
+            AddFrame("", new Rectangle(x * sw, y * sw, sw, sw), 10);
+            x++;
+
+            //crawl
+            FrameLoops.Add(Frames.Count);
+            y = 2;
+            x = 0;
+            AddFrame("", new Rectangle(x * sw, y * sw, sw, sw), 10);
+            x++;
+            AddFrame("", new Rectangle(x * sw, y * sw, sw, sw), 10);
+            x++;
+            AddFrame("", new Rectangle(x * sw, y * sw, sw, sw), 10);
+            x++;
+            AddFrame("", new Rectangle(x * sw, y * sw, sw, sw), 10);
+            x++;
+
+            //Jump
+            FrameLoops.Add(Frames.Count);
+            y = 3;
+            x = 0;
+          //  AddFrame("", new Rectangle(x * sw, y * sw, sw, sw), 10);
+            x++;
+            AddFrame("", new Rectangle(x * sw, y * sw, sw, sw), 7);
+            x++;
+          //  AddFrame("", new Rectangle(x * sw, y * sw, sw, sw), 10);
+            x++;
+
+            //fall
+            FrameLoops.Add(Frames.Count);
+            AddFrame("", new Rectangle(x * sw, y * sw, sw, sw), 40);
+            x++;
+            FrameLoops.Add(Frames.Count);
             //AddFrame("p", 120);
-            AddFrame("",22);
+            // AddFrame("",22);
 
             //SetCenter(0.5, 0.4);
+
+
         }
         public bool IsCrawling = false;
         public Rectangle NormalHitbox()
         {
-
             return new Rectangle(
-               (int)(X - Ox * ScaleW),
-               (int)(Y - Oy * ScaleH),
-               (int)(64 * ScaleW),
-               (int)(64 * ScaleH)
-               );
+                    (int)(22 + X - Ox * ScaleW),
+                    (int)(14 + Y - Oy * ScaleH),
+                    (int)(20 * ScaleW),
+                    (int)(50 * ScaleH)
+                    );
+            /*  return new Rectangle(
+                 (int)(X - Ox * ScaleW),
+                 (int)(Y - Oy * ScaleH),
+                 (int)(64 * ScaleW),
+                 (int)(64 * ScaleH)
+                 );*/
         }
         public Rectangle CrawlHitbox()
         {
-            return new Rectangle(
-                    (int)(X - Ox * ScaleW),
-                    (int)(Y - Oy * ScaleH + 32),
-                    (int)(64 * ScaleW),
-                    (int)(32 * ScaleH)
-                    );
-        }
 
+            return new Rectangle(
+                (int)(22 + X - Ox * ScaleW),
+                (int)(14 + Y - Oy * ScaleH + 25),
+                (int)(20 * ScaleW),
+                (int)(25 * ScaleH)
+         );
+
+        }
+        /*return new Rectangle(
+                  (int)(22+X - Ox * ScaleW),
+                  (int)(14+Y - Oy * ScaleH + 32),
+                  (int)(20 * ScaleW),
+                  (int)(50 * ScaleH)
+                  );*/
         public Rectangle hitbox()
         {
-            if(IsCrawling)
+            if (IsCrawling)
             {
                 return CrawlHitbox();
             }
@@ -64,7 +138,9 @@ namespace CognitiveDissonance
         {
             run,
             idle,
-            jump
+            jump,
+            crawl,
+            fall
         }
 
         public List<Block> Blocks;
@@ -72,23 +148,30 @@ namespace CognitiveDissonance
         public anim currentAnim = anim.idle;
         public void setAnim(anim a)
         {
-            switch (a)
+            if (currentAnim != a)
             {
-                case anim.idle:
-                    currentAnim = anim.idle;
-                    GotoAndStop(0);
-                    break;
-                case anim.run:
-                    if (currentAnim != anim.run)
-                    {
-                        GotoAndPlay(1);
-                    }
-                    currentAnim = anim.run;
-                    break;
-                case anim.jump:
-                    currentAnim = anim.jump;
-                    GotoAndStop(21);
-                    break;
+                currentAnim = a;
+
+                switch (a)
+                {
+                    case anim.idle:
+                        GotoAndPlay(FrameLoops[0]);
+                        break;
+                    case anim.run:
+                        GotoAndPlay(FrameLoops[1]);
+                        break;
+                    case anim.crawl:
+                        GotoAndPlay(FrameLoops[2]);
+                        break;
+                    case anim.jump:
+                        GotoAndPlay(FrameLoops[3]);
+                        break;
+                    case anim.fall:
+                        GotoAndPlay(FrameLoops[4]);
+                        break;
+
+                }
+
             }
         }
 
@@ -98,23 +181,26 @@ namespace CognitiveDissonance
         public double frX = 0;
         public double frY = 0;
 
-        public double maxFrX = 5;
+        public double maxFrX = 4;
         public double maxFrY = 8;
         public double minFrY = -8;
 
-        public double frXFade = 0.3;
+        public double frXFade = 0.4;
         public double frYFade = 1;
 
         public bool releasedJump = true;
         public bool tg = true;
         public int holdingJumpFor = 0;
-        public int maxJumpFor = 13;
+        public int maxJumpFor = 15;
 
         public bool canClimb = false;
 
         public override void Update()
         {
+
             //SetCenter(0.5, 0.4);
+            UpdateAnimFrames();
+
             carried = false;
             physics();
             Pick();
@@ -122,10 +208,56 @@ namespace CognitiveDissonance
         }
         void checkDepth()
         {
-            if (Y>720*3)
+            if (Y > 720 * 3)
             {
                 level.Loss();
             }
+        }
+
+        public void UpdateAnimFrames()
+        {
+            switch (currentAnim)
+            {
+                case anim.idle:
+                    if (CurrentFrame >= FrameLoops[1])
+                    {
+                        GotoAndPlay(FrameLoops[0]);
+                    }
+                    break;
+                case anim.run:
+                    if (CurrentFrame >= FrameLoops[2])
+                    {
+                        GotoAndPlay(FrameLoops[1]);
+                    }
+                    break;
+                case anim.crawl:
+                    if (Math.Abs(frX) > 0)
+                    {
+                        Play();
+                    }
+                    else
+                    {
+                        Stop();
+                    }
+                    if (CurrentFrame >= FrameLoops[3])
+                    {
+                        GotoAndPlay(FrameLoops[2]);
+                    }
+                    break;
+                case anim.jump:
+                    if (CurrentFrame >= FrameLoops[4])
+                    {
+                        GotoAndPlay(FrameLoops[4]-1);
+                    }
+                    break;
+                case anim.fall:
+                    if (CurrentFrame >= FrameLoops[5])
+                    {
+                        GotoAndPlay(FrameLoops[4]);
+                    }
+                    break;
+            }
+
         }
 
         public void Pick()
@@ -165,14 +297,14 @@ namespace CognitiveDissonance
             {
                 if (Orientation == Microsoft.Xna.Framework.Graphics.SpriteEffects.FlipHorizontally)
                 {
-                    Holding.SetXY(this.X - 32, this.Y+16);
+                    Holding.SetXY(this.X, this.Y + 16);
+                    Holding.Orientation = Microsoft.Xna.Framework.Graphics.SpriteEffects.None;
                 }
                 else
                 {
-                    Holding.SetXY(this.X + hitbox().Width, this.Y + 16);
-                   
+                    Holding.SetXY(this.X + 32, this.Y + 16);
+                    Holding.Orientation = Microsoft.Xna.Framework.Graphics.SpriteEffects.FlipHorizontally;
                 }
-               
                 if (Controls.INTERACT)
                 {
                     Holding.RemoveRender();
@@ -199,17 +331,6 @@ namespace CognitiveDissonance
                 }
             }
 
-            if (Controls.LEFT)
-            {
-                frX -= speedX;
-                Orientation = Microsoft.Xna.Framework.Graphics.SpriteEffects.FlipHorizontally;
-            }
-            if (Controls.RIGHT)
-            {
-                frX += speedX;
-                Orientation = Microsoft.Xna.Framework.Graphics.SpriteEffects.None;
-            }
-
             if (frX > 0)
             {
                 frX -= frXFade;
@@ -221,22 +342,57 @@ namespace CognitiveDissonance
                 frX = Math.Max(frX, -maxFrX);
             }
 
-            if (!tg)
+            if (Controls.LEFT)
+            {
+                if (IsCrawling)
+                {
+                    frX -= speedX/ 1.5;
+                }
+                else
+                {
+                    frX -= speedX;
+                }
+                Orientation = Microsoft.Xna.Framework.Graphics.SpriteEffects.FlipHorizontally;
+            }
+            if (Controls.RIGHT)
+            {
+                if (IsCrawling)
+                {
+                    frX += speedX / 1.5;
+                }
+                else
+                {
+                    frX += speedX;
+                }
+                 
+                Orientation = Microsoft.Xna.Framework.Graphics.SpriteEffects.None;
+            }
+
+        
+
+ 
+            if (IsCrawling)
+            {
+                setAnim(anim.crawl);
+            }
+            else
+            if ( (frY) < -0.1)
             {
                 setAnim(anim.jump);
             }
-            else if (Math.Abs(frX) < 1)
+            else if ((frY) > 1)
             {
-                setAnim(anim.idle);
+                setAnim(anim.fall);
             }
-            else
+            else if (Math.Abs(frX) > 1)
             {
-                setAnim(anim.run);
+                 setAnim(anim.run);
             }
-            if (CurrentFrame == 20)
+            else if(tg)
             {
-                GotoAndPlay(0);
+               setAnim(anim.idle);
             }
+
 
 
 
@@ -257,14 +413,14 @@ namespace CognitiveDissonance
 
             if (Controls.JUMP && holdingJumpFor < maxJumpFor && !releasedJump)
             {
-                Console.WriteLine("j");
+
                 frY = -speedY;
                 holdingJumpFor++;
                 tg = false;
             }
             if (!Controls.JUMP && !releasedJump)
             {
-                Console.WriteLine("r");
+
                 holdingJumpFor = maxJumpFor + 1;
                 releasedJump = true;
             }

@@ -8,17 +8,15 @@ namespace CognitiveDissonance
         public static bool PREJUMP => KEY.IsTyped(Keys.Space);
         public static bool JUMP => KEY.IsDown(Keys.Space);
 
-        public static bool SHOW => KEY.IsTyped(Keys.Q);
+        public static bool SHOW => KEY.IsDown(Keys.Tab);
 
         public static bool LEFT => KEY.IsDown(Keys.Left) || KEY.IsDown(Keys.A);
         public static bool RIGHT => KEY.IsDown(Keys.Right) || KEY.IsDown(Keys.D);
-        //public static bool UP => KEY.IsDown(Keys.Up);
         public static bool DOWN => KEY.IsTyped(Keys.Down) || KEY.IsTyped(Keys.S);
-
         public static bool INTERACT => KEY.IsTyped(Keys.Up) || KEY.IsTyped(Keys.W);
-        public static bool PAUSE => KEY.IsTyped(Keys.Escape);
 
-     
+        public static bool PAUSE => KEY.IsTyped(Keys.Escape);
+        public static bool RESET => KEY.IsTyped(Keys.R);
 
         public static bool CONFIRM => KEY.IsTyped(Keys.Enter);
 

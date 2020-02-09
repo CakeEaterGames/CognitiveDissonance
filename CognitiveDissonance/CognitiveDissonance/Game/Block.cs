@@ -61,7 +61,7 @@ namespace CognitiveDissonance
                     Stepable = true;
                     Toggles.Add(0);
                     TileSet = "main";
-                    TileNumb.AddRange(new int[] { 4, 1, 5, 1 });
+                    TileNumb.AddRange(new int[] { 4, 30, 5, 30 });
                     Stop();
  
                     break;
@@ -70,7 +70,7 @@ namespace CognitiveDissonance
                     Clickable = true;
                     Opens.Add(0);
                     TileSet = "main";
-                    TileNumb.AddRange(new int[] { 12, 1, 13, 1 });
+                    TileNumb.AddRange(new int[] { 12, 30, 13, 30 });
                     Stop();
  
  
@@ -81,7 +81,7 @@ namespace CognitiveDissonance
                     Openable = true;
                     Links.Add(0);
                     TileSet = "main";
-                    TileNumb.AddRange(new int[] { 6, 1, 7, 1 });
+                    TileNumb.AddRange(new int[] { 6, 30, 7, 30 });
                     Stop();
                     id = 1;
                     
@@ -91,7 +91,7 @@ namespace CognitiveDissonance
                     IsSolid = true;
                 
                     TileSet = "main";
-                    TileNumb.AddRange(new int[] { 14, 1, 15, 1 });
+                    TileNumb.AddRange(new int[] { 14, 30, 15, 30 });
                     Stop();
                     id = 1;
  

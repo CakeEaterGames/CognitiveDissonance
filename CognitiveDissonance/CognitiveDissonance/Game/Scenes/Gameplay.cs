@@ -11,63 +11,41 @@ namespace CognitiveDissonance
     public class Gameplay : Scene
     {
         public static Gameplay self;
+
+        public static Difficulty difficulty = Difficulty.easy;
+        public enum Difficulty
+        {
+            easy,
+            normal,
+            hard
+        }
+
         public Gameplay()
         {
             self = this;
+
         }
-        Level a;
-        Level b;
+
+        public DualLevel lvl;
+        public int currentLevel = 4;
+
         public override void Init()
         {
             AddUR();
-             a = new Level();
-             b = new Level();
-
-            a.LoadJSON(1, "PartA");
-            b.LoadJSON(1, "PartB");
-
-            a.Init();
-            b.Init();
- 
-            a.AddUR(this);
-            b.AddUpdate(this);
- 
-
+            startLevel();
+        }
+        public void startLevel()
+        {
+            lvl = new DualLevel();
+            lvl.init(currentLevel);
+            lvl.AddUR(this);
         }
 
-
-        int timer = 0;
-        public void showLevelB()
+        public void NextLevel()
         {
-            b.AddRender();
-            b.BaseRenderParameters.Alpha = 0;
-            timer = 600;
-
-
-            a.RemoveUpdate();
-            b.RemoveUpdate();
-        }
-        public void hideLevelB()
-        {
-            b.RemoveRender();
-
-        }
-
-        public override void Update()
-        {
-            if (timer>0)
-            {
-                b.BaseRenderParameters.Alpha += 0.01;
-                timer--;
-                if (timer == 0)
-                {
-                    hideLevelB();
-                }
-            }
-            if (Controls.SHOW)
-            {
-                showLevelB();
-            }
+            currentLevel++;
+            lvl.Destruct();
+            startLevel();
         }
     }
 }
