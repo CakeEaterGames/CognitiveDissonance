@@ -61,11 +61,7 @@ namespace CognitiveDissonance
 
             showLevel = true;
         }
-        public void hideLevelB()
-        {
-            b.RemoveRender();
-        }
-
+ 
         public void FinishLevel()
         {
             Gameplay.self.NextLevel();
@@ -73,8 +69,8 @@ namespace CognitiveDissonance
 
         public override void Update()
         {
-         
 
+           
             if (Gameplay.difficulty == Gameplay.Difficulty.easy && timer == 0)
             {
                 showLevel = Controls.SHOW;
@@ -100,6 +96,11 @@ namespace CognitiveDissonance
 
             if (timer > 0)
             {
+                if (Gameplay.difficulty == Gameplay.Difficulty.hard)
+                {
+
+                    restartLevel();
+                }
                 b.BaseRenderParameters.Alpha += 0.01;
                 timer--;
                 if (timer == 0)

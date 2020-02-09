@@ -36,9 +36,17 @@ namespace CognitiveDissonance
         }
         public void startLevel()
         {
+            if (currentLevel == 11)
+            {
+                Destruct();
+                Main.sceneManager.SetScene(new EndScene());
+            }
+            else { 
+
             lvl = new DualLevel();
             lvl.init(currentLevel);
             lvl.AddUR(this);
+            }
         }
 
         public void NextLevel()

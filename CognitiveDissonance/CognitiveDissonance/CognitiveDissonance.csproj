@@ -75,6 +75,7 @@
     <Compile Include="Game\DualLevel.cs" />
     <Compile Include="Game\Level.cs" />
     <Compile Include="Game\Player.cs" />
+    <Compile Include="Game\Scenes\EndScene.cs" />
     <Compile Include="Game\Scenes\Splash.cs" />
     <Compile Include="Game\Scenes\Gameplay.cs" />
     <Compile Include="Game\Scenes\LevelEditor.cs" />
