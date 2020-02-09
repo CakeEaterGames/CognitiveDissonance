@@ -27,7 +27,7 @@ namespace CognitiveDissonance
         }
 
         public DualLevel lvl;
-        public int currentLevel = 10;
+        public int currentLevel = 1;
 
         public override void Init()
         {
